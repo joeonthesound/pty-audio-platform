@@ -159,25 +159,42 @@ export function HeroSection({ locale, copy, image }: HeroSectionProps) {
               </span>
               <span className="h-0.5 w-5 bg-white/70" />
             </div>
-            <p className="text-3xl font-semibold leading-none">
-              {copy.titleLine1}
-              <span className="block text-primary">{copy.titleLine2}</span>
+            <p className="text-3xl font-semibold leading-tight">
+              Conoce la salud real de tu catálogo.
             </p>
             <p className="mt-5 text-sm leading-6 text-white/62">
-              {copy.description}
+              Revisamos titularidad, registros, metadatos y fuentes de regalías
+              para identificar posibles brechas, inconsistencias y oportunidades
+              de mejora.
+            </p>
+            <p className="mt-4 text-xs font-medium leading-5 text-white/42">
+              Evaluación inicial confidencial. Sin transferencia de derechos.
             </p>
             <div className="mt-8 rounded-xl border border-white/10 p-4">
-              <p className="text-sm text-white/58">{copy.metrics.health}</p>
+              <div className="flex items-center justify-between gap-3">
+                <p className="text-sm text-white/58">Estado del catálogo</p>
+                <span className="rounded-full border border-white/10 px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-white/38">
+                  Ejemplo ilustrativo
+                </span>
+              </div>
               <div className="mt-4 flex items-center gap-4">
                 <div className="grid size-16 place-items-center rounded-full border-[6px] border-primary text-sm font-semibold">
                   {copy.metrics.score}
                 </div>
                 <div>
-                  <p className="font-semibold">{copy.metrics.status}</p>
-                  <p className="text-xs text-primary">{copy.metrics.review}</p>
+                  <p className="font-semibold">Revisión recomendada</p>
+                  <p className="text-xs leading-5 text-primary">
+                    Completa la evaluación para recibir un diagnóstico inicial.
+                  </p>
                 </div>
               </div>
             </div>
+            <Link
+              href={`/${locale}/catalogue-health-check`}
+              className="mt-5 inline-flex h-9 items-center justify-center rounded-full bg-primary px-4 text-xs font-semibold text-white transition-transform hover:-translate-y-0.5"
+            >
+              Evaluar mi catálogo →
+            </Link>
           </motion.div>
         </motion.div>
       </div>
