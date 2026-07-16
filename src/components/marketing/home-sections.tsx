@@ -1,7 +1,7 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useEffect, useMemo, useState } from "react";
 import {
   BarChart3,
   CircleDollarSign,
@@ -25,6 +25,16 @@ type HomeSectionsProps = {
       services: Array<{ title: string; description: string; href: string }>;
       stats: string[];
     };
+    partnersSection: {
+      eyebrow: string;
+      title: string;
+      cta: string;
+      items: Array<{
+        title: string;
+        description: string;
+        tag: string;
+      }>;
+    };
     tools: {
       healthTitle: string;
       releaseTitle: string;
@@ -43,6 +53,12 @@ type HomeSectionsProps = {
       userTypes: string[];
       conflicts: string[];
       dashboardStats: string[];
+      dashboardMetrics: Array<{
+        label: string;
+        value: string;
+      }>;
+      catalogueHealth: string;
+      illustrative: string;
       recentReleases: string[];
     };
     footer: {
@@ -66,14 +82,60 @@ const serviceIcons = [
   Gauge,
 ];
 
-const dashboardValues = [24780, 14250, 7850, 7680];
-
 export function HomeSections({ locale, copy }: HomeSectionsProps) {
   return (
     <>
       <WhatWeDo locale={locale} copy={copy.whatWeDo} />
+      <PartnersSection locale={locale} copy={copy.partnersSection} />
       <InteractiveTools copy={copy.tools} />
     </>
+  );
+}
+
+function PartnersSection({
+  locale,
+  copy,
+}: {
+  locale: string;
+  copy: HomeSectionsProps["copy"]["partnersSection"];
+}) {
+  return (
+    <section className="border-y border-white/8 bg-[#050505] px-5 py-20 sm:px-8">
+      <div className="mx-auto max-w-7xl">
+        <p className="text-xs font-semibold uppercase tracking-[0.32em] text-[#E50914]">
+          {copy.eyebrow}
+        </p>
+        <div className="mt-4 flex flex-col gap-6 lg:flex-row lg:items-end lg:justify-between">
+          <h2 className="max-w-3xl text-3xl font-semibold leading-tight text-white sm:text-4xl">
+            {copy.title}
+          </h2>
+          <Link
+            href={`/${locale}/partner-demo`}
+            className="inline-flex h-11 items-center justify-center rounded-full border border-[#E50914]/50 px-5 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-[#E50914]/15"
+          >
+            {copy.cta}
+          </Link>
+        </div>
+        <div className="mt-10 grid gap-4 md:grid-cols-3">
+          {copy.items.map((item) => (
+            <article
+              key={item.title}
+              className="rounded-2xl border border-white/10 bg-white/[0.035] p-6 shadow-2xl shadow-black/20"
+            >
+              <span className="rounded-full border border-[#E50914]/35 bg-[#E50914]/10 px-3 py-1 text-[11px] font-semibold uppercase tracking-[0.18em] text-[#E50914]">
+                {item.tag}
+              </span>
+              <h3 className="mt-6 text-xl font-semibold text-white">
+                {item.title}
+              </h3>
+              <p className="mt-4 text-sm leading-6 text-white/58">
+                {item.description}
+              </p>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
   );
 }
 
@@ -167,6 +229,13 @@ function InteractiveTools({ copy }: { copy: HomeSectionsProps["copy"]["tools"] }
   const [selectedConflict, setSelectedConflict] = useState(copy.conflicts[0] ?? "");
   const [conflictDescription, setConflictDescription] = useState("");
   const [animatedValues, setAnimatedValues] = useState([0, 0, 0, 0]);
+  const numericTargets = useMemo(
+    () =>
+      copy.dashboardMetrics.map((metric) =>
+        Number(metric.value.replace(/,/g, "").replace(/[^0-9.]/g, "")),
+      ),
+    [copy.dashboardMetrics],
+  );
 
   useEffect(() => {
     const duration = 1100;
@@ -175,7 +244,7 @@ function InteractiveTools({ copy }: { copy: HomeSectionsProps["copy"]["tools"] }
     const tick = (now: number) => {
       const progress = Math.min((now - startedAt) / duration, 1);
       const eased = 1 - Math.pow(1 - progress, 3);
-      setAnimatedValues(dashboardValues.map((value) => Math.round(value * eased)));
+      setAnimatedValues(numericTargets.map((value) => Math.round(value * eased)));
 
       if (progress < 1) {
         requestAnimationFrame(tick);
@@ -184,7 +253,7 @@ function InteractiveTools({ copy }: { copy: HomeSectionsProps["copy"]["tools"] }
 
     const frame = requestAnimationFrame(tick);
     return () => cancelAnimationFrame(frame);
-  }, []);
+  }, [numericTargets]);
 
   return (
     <section className="border-y border-white/8 bg-[#050505] px-5 py-20 sm:px-8">
@@ -278,20 +347,26 @@ function InteractiveTools({ copy }: { copy: HomeSectionsProps["copy"]["tools"] }
         </ToolPanel>
 
         <ToolPanel title={copy.dashboardTitle} meta="PTY Audio">
+          <p className="mb-4 rounded-full border border-white/10 bg-white/[0.03] px-3 py-2 text-center text-[11px] font-semibold uppercase tracking-[0.16em] text-white/42">
+            {copy.illustrative}
+          </p>
           <div className="grid grid-cols-2 gap-3">
-            {copy.dashboardStats.map((stat, index) => (
+            {copy.dashboardMetrics.map((metric, index) => (
               <div
-                key={stat}
+                key={metric.label}
                 className="rounded-lg border border-white/8 bg-black/25 p-3 transition-all duration-300 hover:scale-[1.03] hover:border-[#E50914]/55 hover:shadow-[0_0_24px_rgba(229,9,20,0.2)]"
               >
-                <p className="text-[10px] text-white/42">{stat}</p>
+                <p className="text-[10px] text-white/42">{metric.label}</p>
                 <p className="mt-2 text-lg font-semibold text-white">
-                  ${animatedValues[index].toLocaleString()}
+                  {animatedValues[index].toLocaleString()}
                 </p>
                 <div className="mt-3 h-6 rounded bg-[linear-gradient(135deg,transparent_0%,rgba(229,9,20,0.7)_52%,transparent_56%)]" />
               </div>
             ))}
           </div>
+          <p className="mt-4 text-sm font-semibold text-[#E50914]">
+            {copy.catalogueHealth}
+          </p>
           <div className="mt-5">
             <p className="mb-3 text-xs font-semibold text-white/58">
               Recent Releases

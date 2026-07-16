@@ -12,6 +12,7 @@ const routes = [
   "/about",
   "/contact",
   "/catalogue-health-check",
+  "/partner-demo",
 ] as const;
 
 function localizedUrl(locale: (typeof locales)[number], route: string) {

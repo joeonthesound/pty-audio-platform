@@ -56,6 +56,28 @@
       "learnMore": "Learn more",
       "stats": ["Interactive platform concept", "Designed for global rights ecosystems", "Your catalogue metrics could live here", "Prototype data shown for demonstration"]
     },
+    "partnersSection": {
+      "eyebrow": "For Partners",
+      "title": "Technology infrastructure for distributors, managers and catalogue operators.",
+      "items": [
+        {
+          "title": "Acquire Catalogues",
+          "description": "Transform the site into an acquisition and evaluation channel for artists, labels and catalogue owners.",
+          "tag": "Available now"
+        },
+        {
+          "title": "Empower Your Artists",
+          "description": "Offer websites, EPKs, campaigns and digital experiences through a specialized technology provider.",
+          "tag": "Custom development"
+        },
+        {
+          "title": "Build Your Platform",
+          "description": "Turn onboarding, releases and customer support processes into your own operating platform.",
+          "tag": "Pilot module"
+        }
+      ],
+      "cta": "View partner demo"
+    },
     "tools": {
       "healthTitle": "Catalogue Health Check",
       "releaseTitle": "Submit Your Release",
@@ -74,6 +96,14 @@
       "userTypes": ["Artist", "Songwriter", "Producer", "Record Label", "Publisher", "Catalogue Owner"],
       "conflicts": ["Ownership", "Copyright claim", "Missing writer", "Split dispute"],
       "dashboardStats": ["Total Revenue", "Streaming", "Publishing", "YouTube"],
+      "dashboardMetrics": [
+        {"label": "Recordings", "value": "1,248"},
+        {"label": "Releases", "value": "94"},
+        {"label": "Pending fields", "value": "37"},
+        {"label": "Open conflicts", "value": "12"}
+      ],
+      "catalogueHealth": "82% catalogue health",
+      "illustrative": "Illustrative catalogue data",
       "recentReleases": ["Midnight Dreams", "Echoes of You", "Pure Again"]
     },
     "footer": {
@@ -92,6 +122,36 @@
     "heroServiceDescription": "Music distribution, publishing administration, catalogue rights management, royalty recovery and rights conflict resolution."
   },
   "pages": {
+    "partnerDemo": {
+      "meta": {
+        "title": "Partner Demo",
+        "description": "Private partner demo for distributors, managers and catalogue operators evaluating PTY Audio Platform."
+      },
+      "eyebrow": "Private partner demo",
+      "title": "A white-label operating layer for catalogue acquisition and release workflows.",
+      "description": "This page is designed for potential partners, not artists. It separates current modules, pilot modules and future integrations so the opportunity is clear.",
+      "sections": [
+        {"label": "Problem", "title": "Manual intake creates metadata risk.", "description": "Artists, labels and catalogue owners often submit incomplete credits, ownership data and release details across fragmented tools.", "tag": "Available now"},
+        {"label": "Opportunities", "title": "Every intake can become structured catalogue intelligence.", "description": "A partner can turn submissions into searchable leads, release records, conflict signals and future CRM workflows.", "tag": "Pilot module"},
+        {"label": "Acquisition flow", "title": "Capture and qualify catalogue owners.", "description": "Catalogue Health Check routes prospects through a structured assessment instead of loose messages.", "tag": "Available now"},
+        {"label": "Release flow", "title": "Standardize release submissions.", "description": "Release intake can collect assets, metadata, credits and readiness signals before distribution review.", "tag": "Interactive concept"},
+        {"label": "Internal panel", "title": "Review leads, gaps and pending actions.", "description": "Internal dashboards can organize statuses, documents, notes and unresolved rights questions.", "tag": "Pilot module"},
+        {"label": "White-label model", "title": "Your brand can sit on top of the workflow.", "description": "The interface can shift brand, colors and positioning while keeping the platform architecture underneath.", "tag": "Custom development"},
+        {"label": "Roadmap", "title": "Integrate storage, CRM and distribution operations.", "description": "Future integrations can connect Supabase, Cloudflare R2, WhatsApp notifications, contracts and external rights workflows.", "tag": "Future integration"},
+        {"label": "Collaboration options", "title": "Build, license or operate together.", "description": "The model can support a pilot, white-label deployment, shared-revenue operation or custom platform build.", "tag": "Custom development"},
+        {"label": "Pilot request", "title": "Start with a focused pilot.", "description": "A small catalogue intake flow can validate partner demand before investing in deeper automation.", "tag": "Available now"}
+      ],
+      "whiteLabel": {
+        "title": "White-label demonstration",
+        "description": "Switch the preview between PTY Audio and a partner brand.",
+        "pty": "PTY Audio",
+        "partner": "Your Brand",
+        "portal": "Catalogue Operating Portal",
+        "subtitle": "Onboarding, releases, conflicts and internal review in one branded workflow.",
+        "metrics": ["1,248 recordings", "94 releases", "37 pending fields", "12 open conflicts", "82% catalogue health"],
+        "note": "Illustrative catalogue data"
+      }
+    },
     "services": {
       "meta": {
         "title": "Services",

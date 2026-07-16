@@ -56,6 +56,28 @@
       "learnMore": "Ver más",
       "stats": ["Concepto de plataforma interactiva", "Diseñada para ecosistemas globales de derechos", "Las métricas de tu catálogo podrían vivir aquí", "Datos de prototipo mostrados para demostración"]
     },
+    "partnersSection": {
+      "eyebrow": "For Partners",
+      "title": "Infraestructura tecnológica para distribuidoras, managers y operadores de catálogo.",
+      "items": [
+        {
+          "title": "Acquire Catalogues",
+          "description": "Transforme el sitio en un canal de captación y evaluación de artistas, sellos y propietarios de catálogos.",
+          "tag": "Available now"
+        },
+        {
+          "title": "Empower Your Artists",
+          "description": "Ofrezca webs, EPK, campañas y experiencias digitales mediante un proveedor tecnológico especializado.",
+          "tag": "Custom development"
+        },
+        {
+          "title": "Build Your Platform",
+          "description": "Convierta sus procesos de onboarding, lanzamientos y atención al cliente en una plataforma propia.",
+          "tag": "Pilot module"
+        }
+      ],
+      "cta": "Ver demo para partners"
+    },
     "tools": {
       "healthTitle": "Evaluación de Catálogo",
       "releaseTitle": "Enviar tu Lanzamiento",
@@ -74,6 +96,14 @@
       "userTypes": ["Artista", "Compositor", "Productor", "Sello", "Publisher", "Dueño de Catálogo"],
       "conflicts": ["Titularidad", "Reclamo copyright", "Compositor faltante", "Disputa de split"],
       "dashboardStats": ["Ingreso Total", "Streaming", "Publishing", "YouTube"],
+      "dashboardMetrics": [
+        {"label": "Grabaciones", "value": "1,248"},
+        {"label": "Lanzamientos", "value": "94"},
+        {"label": "Campos pendientes", "value": "37"},
+        {"label": "Conflictos abiertos", "value": "12"}
+      ],
+      "catalogueHealth": "82% salud del catálogo",
+      "illustrative": "Illustrative catalogue data",
       "recentReleases": ["Midnight Dreams", "Echoes of You", "Pure Again"]
     },
     "footer": {
@@ -92,6 +122,36 @@
     "heroServiceDescription": "Distribución musical, administración editorial, gestión de derechos de catálogo, recuperación de regalías y resolución de conflictos de derechos."
   },
   "pages": {
+    "partnerDemo": {
+      "meta": {
+        "title": "Partner Demo",
+        "description": "Demo privada para distribuidoras, managers y operadores de catálogo que evalúan PTY Audio Platform."
+      },
+      "eyebrow": "Demo privada para partners",
+      "title": "Una capa operativa white-label para captación de catálogos y flujos de lanzamientos.",
+      "description": "Esta página está diseñada para socios potenciales, no para artistas. Separa módulos actuales, pilotos e integraciones futuras para mostrar la oportunidad con claridad.",
+      "sections": [
+        {"label": "Problema actual", "title": "La captación manual crea riesgo de metadata.", "description": "Artistas, sellos y dueños de catálogos suelen enviar créditos, titularidad y detalles de lanzamiento incompletos en herramientas fragmentadas.", "tag": "Available now"},
+        {"label": "Oportunidades", "title": "Cada intake puede convertirse en inteligencia de catálogo.", "description": "Un socio puede transformar envíos en leads, registros de lanzamiento, señales de conflicto y futuros flujos CRM.", "tag": "Pilot module"},
+        {"label": "Flujo de captación", "title": "Capture y califique propietarios de catálogo.", "description": "Catalogue Health Check guía prospectos por una evaluación estructurada en vez de mensajes sueltos.", "tag": "Available now"},
+        {"label": "Flujo de lanzamientos", "title": "Estandarice el envío de lanzamientos.", "description": "El intake puede recopilar activos, metadata, créditos y señales de preparación antes de revisión de distribución.", "tag": "Interactive concept"},
+        {"label": "Panel interno", "title": "Revise leads, brechas y acciones pendientes.", "description": "Los dashboards internos pueden organizar estados, documentos, notas y preguntas de derechos sin resolver.", "tag": "Pilot module"},
+        {"label": "Modelo white-label", "title": "Su marca puede vivir encima del workflow.", "description": "La interfaz puede cambiar marca, colores y posicionamiento manteniendo la arquitectura de plataforma.", "tag": "Custom development"},
+        {"label": "Roadmap", "title": "Integre storage, CRM y operación de distribución.", "description": "Futuras integraciones pueden conectar Supabase, Cloudflare R2, WhatsApp, contratos y flujos externos de derechos.", "tag": "Future integration"},
+        {"label": "Opciones de colaboración", "title": "Construir, licenciar u operar juntos.", "description": "El modelo puede soportar piloto, despliegue white-label, operación de revenue-share o desarrollo a medida.", "tag": "Custom development"},
+        {"label": "Solicitud de piloto", "title": "Empiece con un piloto enfocado.", "description": "Un pequeño flujo de intake puede validar demanda antes de invertir en automatización profunda.", "tag": "Available now"}
+      ],
+      "whiteLabel": {
+        "title": "Demostración white-label",
+        "description": "Cambie la vista entre PTY Audio y una marca aliada.",
+        "pty": "PTY Audio",
+        "partner": "Your Brand",
+        "portal": "Catalogue Operating Portal",
+        "subtitle": "Onboarding, lanzamientos, conflictos y revisión interna en un workflow de marca.",
+        "metrics": ["1,248 grabaciones", "94 lanzamientos", "37 campos pendientes", "12 conflictos abiertos", "82% salud del catálogo"],
+        "note": "Illustrative catalogue data"
+      }
+    },
     "services": {
       "meta": {
         "title": "Servicios",

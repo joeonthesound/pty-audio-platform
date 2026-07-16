@@ -106,6 +106,12 @@ export default async function HomePage({
             services: t.raw("whatWeDo.services"),
             stats: t.raw("whatWeDo.stats"),
           },
+          partnersSection: {
+            eyebrow: t("partnersSection.eyebrow"),
+            title: t("partnersSection.title"),
+            cta: t("partnersSection.cta"),
+            items: t.raw("partnersSection.items"),
+          },
           tools: {
             healthTitle: t("tools.healthTitle"),
             releaseTitle: t("tools.releaseTitle"),
@@ -124,6 +130,9 @@ export default async function HomePage({
             userTypes: t.raw("tools.userTypes"),
             conflicts: t.raw("tools.conflicts"),
             dashboardStats: t.raw("tools.dashboardStats"),
+            dashboardMetrics: t.raw("tools.dashboardMetrics"),
+            catalogueHealth: t("tools.catalogueHealth"),
+            illustrative: t("tools.illustrative"),
             recentReleases: t.raw("tools.recentReleases"),
           },
           footer: {
