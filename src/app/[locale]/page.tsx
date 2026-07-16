@@ -89,6 +89,16 @@ export default async function HomePage({
             status: t("metrics.status"),
             review: t("metrics.review"),
           },
+          heroPanel: {
+            title: t("heroPanel.title"),
+            description: t("heroPanel.description"),
+            microcopy: t("heroPanel.microcopy"),
+            health: t("heroPanel.health"),
+            illustrative: t("heroPanel.illustrative"),
+            status: t("heroPanel.status"),
+            review: t("heroPanel.review"),
+            cta: t("heroPanel.cta"),
+          },
           partners: t.raw("partners"),
         }}
       />

@@ -25,6 +25,16 @@ type HeroSectionProps = {
       status: string;
       review: string;
     };
+    heroPanel: {
+      title: string;
+      description: string;
+      microcopy: string;
+      health: string;
+      illustrative: string;
+      status: string;
+      review: string;
+      cta: string;
+    };
     partners: string[];
   };
   image: {
@@ -160,21 +170,19 @@ export function HeroSection({ locale, copy, image }: HeroSectionProps) {
               <span className="h-0.5 w-5 bg-white/70" />
             </div>
             <p className="text-3xl font-semibold leading-tight">
-              Conoce la salud real de tu catálogo.
+              {copy.heroPanel.title}
             </p>
             <p className="mt-5 text-sm leading-6 text-white/62">
-              Revisamos titularidad, registros, metadatos y fuentes de regalías
-              para identificar posibles brechas, inconsistencias y oportunidades
-              de mejora.
+              {copy.heroPanel.description}
             </p>
             <p className="mt-4 text-xs font-medium leading-5 text-white/42">
-              Evaluación inicial confidencial. Sin transferencia de derechos.
+              {copy.heroPanel.microcopy}
             </p>
             <div className="mt-8 rounded-xl border border-white/10 p-4">
               <div className="flex items-center justify-between gap-3">
-                <p className="text-sm text-white/58">Estado del catálogo</p>
+                <p className="text-sm text-white/58">{copy.heroPanel.health}</p>
                 <span className="rounded-full border border-white/10 px-2 py-1 text-[10px] font-semibold uppercase tracking-[0.12em] text-white/38">
-                  Ejemplo ilustrativo
+                  {copy.heroPanel.illustrative}
                 </span>
               </div>
               <div className="mt-4 flex items-center gap-4">
@@ -182,9 +190,9 @@ export function HeroSection({ locale, copy, image }: HeroSectionProps) {
                   {copy.metrics.score}
                 </div>
                 <div>
-                  <p className="font-semibold">Revisión recomendada</p>
+                  <p className="font-semibold">{copy.heroPanel.status}</p>
                   <p className="text-xs leading-5 text-primary">
-                    Completa la evaluación para recibir un diagnóstico inicial.
+                    {copy.heroPanel.review}
                   </p>
                 </div>
               </div>
@@ -193,7 +201,7 @@ export function HeroSection({ locale, copy, image }: HeroSectionProps) {
               href={`/${locale}/catalogue-health-check`}
               className="mt-5 inline-flex h-9 items-center justify-center rounded-full bg-primary px-4 text-xs font-semibold text-white transition-transform hover:-translate-y-0.5"
             >
-              Evaluar mi catálogo →
+              {copy.heroPanel.cta}
             </Link>
           </motion.div>
         </motion.div>

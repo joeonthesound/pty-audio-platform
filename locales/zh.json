@@ -190,6 +190,16 @@
       ],
       "cta": "View partner overview",
       "liveCta": "Open live dashboard"
+    },
+    "heroPanel": {
+      "title": "了解你目录的真实健康状态。",
+      "description": "我们会审查所有权、登记、元数据和版税来源，以识别可能的缺口、不一致和改进机会。",
+      "microcopy": "初步保密评估。不涉及权利转让。",
+      "health": "目录状态",
+      "illustrative": "示例说明",
+      "status": "建议审核",
+      "review": "完成评估以获得初步诊断。",
+      "cta": "评估我的目录 →"
     }
   },
   "seo": {

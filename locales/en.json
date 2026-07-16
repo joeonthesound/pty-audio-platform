@@ -38,7 +38,14 @@
       "status": "Good",
       "review": "Review needed"
     },
-    "partners": ["ASCAP", "BMI", "SESAC", "THE MLC", "SoundExchange", "CMRRA"],
+    "partners": [
+      "ASCAP",
+      "BMI",
+      "SESAC",
+      "THE MLC",
+      "SoundExchange",
+      "CMRRA"
+    ],
     "socialProof": {
       "title": "Rights ecosystems the platform is designed to support"
     },
@@ -46,15 +53,44 @@
       "eyebrow": "What we do",
       "title": "Complete Solutions for Music Rights and Catalogue Management",
       "services": [
-        {"title": "Music Distribution", "description": "Digital distribution, metadata management and release support across major platforms.", "href": "services/distribution"},
-        {"title": "Publishing Administration", "description": "Song registration, publishing management and worldwide royalty collection.", "href": "services/publishing"},
-        {"title": "Catalogue Management", "description": "Full catalogue audits, ownership review, metadata correction and rights organization.", "href": "services/catalogue-management"},
-        {"title": "Royalty Recovery", "description": "Identify missing royalties, registration gaps and claim opportunities across revenue streams.", "href": "contact"},
-        {"title": "Rights Conflict Resolution", "description": "Resolve ownership disputes, duplicate registrations, missing credits and split conflicts.", "href": "contact"},
-        {"title": "YouTube & Digital Assets", "description": "Content ID management, asset optimization and digital catalogue revenue protection.", "href": "contact"}
+        {
+          "title": "Music Distribution",
+          "description": "Digital distribution, metadata management and release support across major platforms.",
+          "href": "services/distribution"
+        },
+        {
+          "title": "Publishing Administration",
+          "description": "Song registration, publishing management and worldwide royalty collection.",
+          "href": "services/publishing"
+        },
+        {
+          "title": "Catalogue Management",
+          "description": "Full catalogue audits, ownership review, metadata correction and rights organization.",
+          "href": "services/catalogue-management"
+        },
+        {
+          "title": "Royalty Recovery",
+          "description": "Identify missing royalties, registration gaps and claim opportunities across revenue streams.",
+          "href": "contact"
+        },
+        {
+          "title": "Rights Conflict Resolution",
+          "description": "Resolve ownership disputes, duplicate registrations, missing credits and split conflicts.",
+          "href": "contact"
+        },
+        {
+          "title": "YouTube & Digital Assets",
+          "description": "Content ID management, asset optimization and digital catalogue revenue protection.",
+          "href": "contact"
+        }
       ],
       "learnMore": "Learn more",
-      "stats": ["Interactive platform concept", "Designed for global rights ecosystems", "Your catalogue metrics could live here", "Prototype data shown for demonstration"]
+      "stats": [
+        "Interactive platform concept",
+        "Designed for global rights ecosystems",
+        "Your catalogue metrics could live here",
+        "Prototype data shown for demonstration"
+      ]
     },
     "partnersSection": {
       "eyebrow": "For Partners",
@@ -93,19 +129,57 @@
       "description": "Description",
       "continue": "Continue",
       "back": "Back",
-      "releaseFields": ["Release Title", "Release Type", "Genre", "Release Date"],
-      "userTypes": ["Artist", "Songwriter", "Producer", "Record Label", "Publisher", "Catalogue Owner"],
-      "conflicts": ["Ownership", "Copyright claim", "Missing writer", "Split dispute"],
-      "dashboardStats": ["Total Revenue", "Streaming", "Publishing", "YouTube"],
+      "releaseFields": [
+        "Release Title",
+        "Release Type",
+        "Genre",
+        "Release Date"
+      ],
+      "userTypes": [
+        "Artist",
+        "Songwriter",
+        "Producer",
+        "Record Label",
+        "Publisher",
+        "Catalogue Owner"
+      ],
+      "conflicts": [
+        "Ownership",
+        "Copyright claim",
+        "Missing writer",
+        "Split dispute"
+      ],
+      "dashboardStats": [
+        "Total Revenue",
+        "Streaming",
+        "Publishing",
+        "YouTube"
+      ],
       "dashboardMetrics": [
-        {"label": "Recordings", "value": "1,248"},
-        {"label": "Releases", "value": "94"},
-        {"label": "Pending fields", "value": "37"},
-        {"label": "Open conflicts", "value": "12"}
+        {
+          "label": "Recordings",
+          "value": "1,248"
+        },
+        {
+          "label": "Releases",
+          "value": "94"
+        },
+        {
+          "label": "Pending fields",
+          "value": "37"
+        },
+        {
+          "label": "Open conflicts",
+          "value": "12"
+        }
       ],
       "catalogueHealth": "82% catalogue health",
       "illustrative": "Illustrative catalogue data",
-      "recentReleases": ["Midnight Dreams", "Echoes of You", "Pure Again"]
+      "recentReleases": [
+        "Midnight Dreams",
+        "Echoes of You",
+        "Pure Again"
+      ]
     },
     "footer": {
       "description": "PTY Audio is an independent music rights management and publishing company helping artists and rights owners maximize the value of their music worldwide.",
@@ -116,6 +190,16 @@
       "copyright": "© 2026 PTY Audio. All rights reserved.",
       "createdBy": "Created by",
       "sitemap": "Sitemap"
+    },
+    "heroPanel": {
+      "title": "Know the real health of your catalogue.",
+      "description": "We review ownership, registrations, metadata and royalty sources to identify possible gaps, inconsistencies and improvement opportunities.",
+      "microcopy": "Initial confidential assessment. No transfer of rights.",
+      "health": "Catalogue status",
+      "illustrative": "Illustrative example",
+      "status": "Review recommended",
+      "review": "Complete the assessment to receive an initial diagnosis.",
+      "cta": "Evaluate my catalogue →"
     }
   },
   "seo": {
@@ -132,15 +216,60 @@
       "title": "A white-label operating layer for catalogue acquisition and release workflows.",
       "description": "This page is designed for potential partners, not artists. It separates current modules, pilot modules and future integrations so the opportunity is clear.",
       "sections": [
-        {"label": "Problem", "title": "Manual intake creates metadata risk.", "description": "Artists, labels and catalogue owners often submit incomplete credits, ownership data and release details across fragmented tools.", "tag": "Available now"},
-        {"label": "Opportunities", "title": "Every intake can become structured catalogue intelligence.", "description": "A partner can turn submissions into searchable leads, release records, conflict signals and future CRM workflows.", "tag": "Pilot module"},
-        {"label": "Acquisition flow", "title": "Capture and qualify catalogue owners.", "description": "Catalogue Health Check routes prospects through a structured assessment instead of loose messages.", "tag": "Available now"},
-        {"label": "Release flow", "title": "Standardize release submissions.", "description": "Release intake can collect assets, metadata, credits and readiness signals before distribution review.", "tag": "Interactive concept"},
-        {"label": "Internal panel", "title": "Review leads, gaps and pending actions.", "description": "Internal dashboards can organize statuses, documents, notes and unresolved rights questions.", "tag": "Pilot module"},
-        {"label": "White-label model", "title": "Your brand can sit on top of the workflow.", "description": "The interface can shift brand, colors and positioning while keeping the platform architecture underneath.", "tag": "Custom development"},
-        {"label": "Roadmap", "title": "Integrate storage, CRM and distribution operations.", "description": "Future integrations can connect Supabase, Cloudflare R2, WhatsApp notifications, contracts and external rights workflows.", "tag": "Future integration"},
-        {"label": "Collaboration options", "title": "Build, license or operate together.", "description": "The model can support a pilot, white-label deployment, shared-revenue operation or custom platform build.", "tag": "Custom development"},
-        {"label": "Pilot request", "title": "Start with a focused pilot.", "description": "A small catalogue intake flow can validate partner demand before investing in deeper automation.", "tag": "Available now"}
+        {
+          "label": "Problem",
+          "title": "Manual intake creates metadata risk.",
+          "description": "Artists, labels and catalogue owners often submit incomplete credits, ownership data and release details across fragmented tools.",
+          "tag": "Available now"
+        },
+        {
+          "label": "Opportunities",
+          "title": "Every intake can become structured catalogue intelligence.",
+          "description": "A partner can turn submissions into searchable leads, release records, conflict signals and future CRM workflows.",
+          "tag": "Pilot module"
+        },
+        {
+          "label": "Acquisition flow",
+          "title": "Capture and qualify catalogue owners.",
+          "description": "Catalogue Health Check routes prospects through a structured assessment instead of loose messages.",
+          "tag": "Available now"
+        },
+        {
+          "label": "Release flow",
+          "title": "Standardize release submissions.",
+          "description": "Release intake can collect assets, metadata, credits and readiness signals before distribution review.",
+          "tag": "Interactive concept"
+        },
+        {
+          "label": "Internal panel",
+          "title": "Review leads, gaps and pending actions.",
+          "description": "Internal dashboards can organize statuses, documents, notes and unresolved rights questions.",
+          "tag": "Pilot module"
+        },
+        {
+          "label": "White-label model",
+          "title": "Your brand can sit on top of the workflow.",
+          "description": "The interface can shift brand, colors and positioning while keeping the platform architecture underneath.",
+          "tag": "Custom development"
+        },
+        {
+          "label": "Roadmap",
+          "title": "Integrate storage, CRM and distribution operations.",
+          "description": "Future integrations can connect Supabase, Cloudflare R2, WhatsApp notifications, contracts and external rights workflows.",
+          "tag": "Future integration"
+        },
+        {
+          "label": "Collaboration options",
+          "title": "Build, license or operate together.",
+          "description": "The model can support a pilot, white-label deployment, shared-revenue operation or custom platform build.",
+          "tag": "Custom development"
+        },
+        {
+          "label": "Pilot request",
+          "title": "Start with a focused pilot.",
+          "description": "A small catalogue intake flow can validate partner demand before investing in deeper automation.",
+          "tag": "Available now"
+        }
       ],
       "whiteLabel": {
         "title": "White-label demonstration",
@@ -149,7 +278,13 @@
         "partner": "Your Brand",
         "portal": "Catalogue Operating Portal",
         "subtitle": "Onboarding, releases, conflicts and internal review in one branded workflow.",
-        "metrics": ["1,248 recordings", "94 releases", "37 pending fields", "12 open conflicts", "82% catalogue health"],
+        "metrics": [
+          "1,248 recordings",
+          "94 releases",
+          "37 pending fields",
+          "12 open conflicts",
+          "82% catalogue health"
+        ],
         "note": "Illustrative catalogue data"
       }
     },
@@ -162,60 +297,126 @@
       "title": "Complete solutions for music rights and catalogue management.",
       "description": "A focused operating layer for distribution, publishing administration, metadata control and catalogue value recovery.",
       "items": [
-        {"title": "Music Distribution", "description": "Release support, metadata management and delivery to major platforms.", "href": "services/distribution"},
-        {"title": "Publishing Administration", "description": "Writer registration, publishing administration and royalty collection.", "href": "services/publishing"},
-        {"title": "Catalogue Management", "description": "Catalogue audits, ownership review and metadata organization.", "href": "services/catalogue-management"}
+        {
+          "title": "Music Distribution",
+          "description": "Release support, metadata management and delivery to major platforms.",
+          "href": "services/distribution"
+        },
+        {
+          "title": "Publishing Administration",
+          "description": "Writer registration, publishing administration and royalty collection.",
+          "href": "services/publishing"
+        },
+        {
+          "title": "Catalogue Management",
+          "description": "Catalogue audits, ownership review and metadata organization.",
+          "href": "services/catalogue-management"
+        }
       ]
     },
     "catalogueManagement": {
-      "meta": {"title": "Catalogue Management", "description": "Catalogue audits, rights organization and metadata correction for music owners."},
+      "meta": {
+        "title": "Catalogue Management",
+        "description": "Catalogue audits, rights organization and metadata correction for music owners."
+      },
       "eyebrow": "Catalogue intelligence",
       "title": "Turn catalogue complexity into organized business value.",
       "description": "PTY Audio reviews ownership, registrations, metadata and royalty pathways so catalogue owners can see what they control and what needs action.",
-      "points": ["Catalogue audit", "Ownership review", "Metadata correction", "Rights organization"],
+      "points": [
+        "Catalogue audit",
+        "Ownership review",
+        "Metadata correction",
+        "Rights organization"
+      ],
       "cta": "Start Catalogue Health Check"
     },
     "publishing": {
-      "meta": {"title": "Publishing Services", "description": "Publishing administration for songwriters, producers and rights owners."},
+      "meta": {
+        "title": "Publishing Services",
+        "description": "Publishing administration for songwriters, producers and rights owners."
+      },
       "eyebrow": "Publishing administration",
       "title": "Protect compositions and collect publishing value.",
       "description": "We help writers and owners organize song registrations, publishing splits and royalty collection workflows.",
-      "points": ["Song registration", "Publishing administration", "Royalty collection", "Writer management"],
+      "points": [
+        "Song registration",
+        "Publishing administration",
+        "Royalty collection",
+        "Writer management"
+      ],
       "cta": "Request Publishing Review"
     },
     "distribution": {
-      "meta": {"title": "Music Distribution", "description": "Professional release management and digital distribution support for artists and labels."},
+      "meta": {
+        "title": "Music Distribution",
+        "description": "Professional release management and digital distribution support for artists and labels."
+      },
       "eyebrow": "Distribution",
       "title": "Release music with clean metadata and rights readiness.",
       "description": "PTY Audio supports artists and labels with release preparation, platform delivery, credits and digital asset organization.",
-      "points": ["Digital distribution", "Metadata management", "Release support", "YouTube assets"],
+      "points": [
+        "Digital distribution",
+        "Metadata management",
+        "Release support",
+        "YouTube assets"
+      ],
       "cta": "Submit Your Release"
     },
     "resources": {
-      "meta": {"title": "Resources", "description": "Guides and insights about catalogue rights, royalties, publishing and music distribution."},
+      "meta": {
+        "title": "Resources",
+        "description": "Guides and insights about catalogue rights, royalties, publishing and music distribution."
+      },
       "eyebrow": "Resources",
       "title": "Practical intelligence for music rights owners.",
       "description": "Guides, explainers and field notes for artists, producers, labels and catalogue owners.",
       "items": [
-        {"title": "Catalogue Health Basics", "description": "How to identify gaps in metadata, ownership and registrations."},
-        {"title": "Publishing vs Distribution", "description": "A clear view of which royalties each system controls."},
-        {"title": "Royalty Recovery Signals", "description": "Common warning signs that money may be missing."}
+        {
+          "title": "Catalogue Health Basics",
+          "description": "How to identify gaps in metadata, ownership and registrations."
+        },
+        {
+          "title": "Publishing vs Distribution",
+          "description": "A clear view of which royalties each system controls."
+        },
+        {
+          "title": "Royalty Recovery Signals",
+          "description": "Common warning signs that money may be missing."
+        }
       ]
     },
     "about": {
-      "meta": {"title": "About", "description": "PTY Audio is a premium music rights management and catalogue intelligence company."},
+      "meta": {
+        "title": "About",
+        "description": "PTY Audio is a premium music rights management and catalogue intelligence company."
+      },
       "eyebrow": "About PTY Audio",
       "title": "We manage the business infrastructure behind music ownership.",
       "description": "PTY Audio is built for independent creators and catalogue owners who need clarity, protection and growth across rights, metadata and revenue systems.",
-      "stats": ["Interactive platform concept", "Built to integrate with distribution workflows", "Prototype data shown for demonstration"]
+      "stats": [
+        "Interactive platform concept",
+        "Built to integrate with distribution workflows",
+        "Prototype data shown for demonstration"
+      ]
     },
     "contact": {
-      "meta": {"title": "Contact", "description": "Contact PTY Audio to review your catalogue, release or music rights issue."},
+      "meta": {
+        "title": "Contact",
+        "description": "Contact PTY Audio to review your catalogue, release or music rights issue."
+      },
       "eyebrow": "Contact",
       "title": "Start with a focused rights review.",
       "description": "Send the essentials and the PTY Audio team will route your request to the right workflow.",
-      "fields": {"name": "Name", "email": "Email", "message": "Message"},
-      "placeholders": {"name": "Your name", "email": "name@example.com", "message": "Tell us what you need reviewed."},
+      "fields": {
+        "name": "Name",
+        "email": "Email",
+        "message": "Message"
+      },
+      "placeholders": {
+        "name": "Your name",
+        "email": "name@example.com",
+        "message": "Tell us what you need reviewed."
+      },
       "cta": "Send Request"
     }
   },
@@ -226,7 +427,12 @@
     },
     "title": "Catalogue Health Check",
     "subtitle": "Tell us how your catalogue is organized. PTY Audio will review the rights, metadata and royalty risk signals.",
-    "steps": ["Profile", "Catalogue", "Rights", "Problems"],
+    "steps": [
+      "Profile",
+      "Catalogue",
+      "Rights",
+      "Problems"
+    ],
     "next": "Continue",
     "back": "Back",
     "submit": "Submit Catalogue Review",

@@ -38,7 +38,14 @@
       "status": "Bueno",
       "review": "Revisión requerida"
     },
-    "partners": ["ASCAP", "BMI", "SESAC", "THE MLC", "SoundExchange", "CMRRA"],
+    "partners": [
+      "ASCAP",
+      "BMI",
+      "SESAC",
+      "THE MLC",
+      "SoundExchange",
+      "CMRRA"
+    ],
     "socialProof": {
       "title": "Ecosistemas de derechos que la plataforma está diseñada para soportar"
     },
@@ -46,15 +53,44 @@
       "eyebrow": "Qué hacemos",
       "title": "Soluciones completas para derechos musicales y gestión de catálogo",
       "services": [
-        {"title": "Distribución Musical", "description": "Distribución digital, gestión de metadata y soporte de lanzamiento en plataformas principales.", "href": "services/distribution"},
-        {"title": "Administración Publishing", "description": "Registro de obras, gestión editorial y colección global de regalías.", "href": "services/publishing"},
-        {"title": "Gestión de Catálogo", "description": "Auditorías completas, revisión de titularidad, corrección de metadata y organización de derechos.", "href": "services/catalogue-management"},
-        {"title": "Recuperación de Regalías", "description": "Identifica regalías faltantes, brechas de registro y oportunidades de reclamo.", "href": "contact"},
-        {"title": "Resolución de Conflictos", "description": "Resuelve disputas de titularidad, registros duplicados, créditos faltantes y conflictos de splits.", "href": "contact"},
-        {"title": "YouTube y Activos Digitales", "description": "Gestión de Content ID, optimización de activos y protección de ingresos digitales.", "href": "contact"}
+        {
+          "title": "Distribución Musical",
+          "description": "Distribución digital, gestión de metadata y soporte de lanzamiento en plataformas principales.",
+          "href": "services/distribution"
+        },
+        {
+          "title": "Administración Publishing",
+          "description": "Registro de obras, gestión editorial y colección global de regalías.",
+          "href": "services/publishing"
+        },
+        {
+          "title": "Gestión de Catálogo",
+          "description": "Auditorías completas, revisión de titularidad, corrección de metadata y organización de derechos.",
+          "href": "services/catalogue-management"
+        },
+        {
+          "title": "Recuperación de Regalías",
+          "description": "Identifica regalías faltantes, brechas de registro y oportunidades de reclamo.",
+          "href": "contact"
+        },
+        {
+          "title": "Resolución de Conflictos",
+          "description": "Resuelve disputas de titularidad, registros duplicados, créditos faltantes y conflictos de splits.",
+          "href": "contact"
+        },
+        {
+          "title": "YouTube y Activos Digitales",
+          "description": "Gestión de Content ID, optimización de activos y protección de ingresos digitales.",
+          "href": "contact"
+        }
       ],
       "learnMore": "Ver más",
-      "stats": ["Concepto de plataforma interactiva", "Diseñada para ecosistemas globales de derechos", "Las métricas de tu catálogo podrían vivir aquí", "Datos de prototipo mostrados para demostración"]
+      "stats": [
+        "Concepto de plataforma interactiva",
+        "Diseñada para ecosistemas globales de derechos",
+        "Las métricas de tu catálogo podrían vivir aquí",
+        "Datos de prototipo mostrados para demostración"
+      ]
     },
     "partnersSection": {
       "eyebrow": "For Partners",
@@ -93,19 +129,57 @@
       "description": "Descripción",
       "continue": "Continuar",
       "back": "Atrás",
-      "releaseFields": ["Título del lanzamiento", "Tipo de lanzamiento", "Género", "Fecha de lanzamiento"],
-      "userTypes": ["Artista", "Compositor", "Productor", "Sello", "Publisher", "Dueño de Catálogo"],
-      "conflicts": ["Titularidad", "Reclamo copyright", "Compositor faltante", "Disputa de split"],
-      "dashboardStats": ["Ingreso Total", "Streaming", "Publishing", "YouTube"],
+      "releaseFields": [
+        "Título del lanzamiento",
+        "Tipo de lanzamiento",
+        "Género",
+        "Fecha de lanzamiento"
+      ],
+      "userTypes": [
+        "Artista",
+        "Compositor",
+        "Productor",
+        "Sello",
+        "Publisher",
+        "Dueño de Catálogo"
+      ],
+      "conflicts": [
+        "Titularidad",
+        "Reclamo copyright",
+        "Compositor faltante",
+        "Disputa de split"
+      ],
+      "dashboardStats": [
+        "Ingreso Total",
+        "Streaming",
+        "Publishing",
+        "YouTube"
+      ],
       "dashboardMetrics": [
-        {"label": "Grabaciones", "value": "1,248"},
-        {"label": "Lanzamientos", "value": "94"},
-        {"label": "Campos pendientes", "value": "37"},
-        {"label": "Conflictos abiertos", "value": "12"}
+        {
+          "label": "Grabaciones",
+          "value": "1,248"
+        },
+        {
+          "label": "Lanzamientos",
+          "value": "94"
+        },
+        {
+          "label": "Campos pendientes",
+          "value": "37"
+        },
+        {
+          "label": "Conflictos abiertos",
+          "value": "12"
+        }
       ],
       "catalogueHealth": "82% salud del catálogo",
       "illustrative": "Illustrative catalogue data",
-      "recentReleases": ["Midnight Dreams", "Echoes of You", "Pure Again"]
+      "recentReleases": [
+        "Midnight Dreams",
+        "Echoes of You",
+        "Pure Again"
+      ]
     },
     "footer": {
       "description": "PTY Audio es una compañía independiente de gestión de derechos musicales y publishing que ayuda a artistas y dueños de derechos a maximizar el valor de su música globalmente.",
@@ -116,6 +190,16 @@
       "copyright": "© 2026 PTY Audio. Todos los derechos reservados.",
       "createdBy": "Created by",
       "sitemap": "Mapa del sitio"
+    },
+    "heroPanel": {
+      "title": "Conoce la salud real de tu catálogo.",
+      "description": "Revisamos titularidad, registros, metadatos y fuentes de regalías para identificar posibles brechas, inconsistencias y oportunidades de mejora.",
+      "microcopy": "Evaluación inicial confidencial. Sin transferencia de derechos.",
+      "health": "Estado del catálogo",
+      "illustrative": "Ejemplo ilustrativo",
+      "status": "Revisión recomendada",
+      "review": "Completa la evaluación para recibir un diagnóstico inicial.",
+      "cta": "Evaluar mi catálogo →"
     }
   },
   "seo": {
@@ -132,15 +216,60 @@
       "title": "Una capa operativa white-label para captación de catálogos y flujos de lanzamientos.",
       "description": "Esta página está diseñada para socios potenciales, no para artistas. Separa módulos actuales, pilotos e integraciones futuras para mostrar la oportunidad con claridad.",
       "sections": [
-        {"label": "Problema actual", "title": "La captación manual crea riesgo de metadata.", "description": "Artistas, sellos y dueños de catálogos suelen enviar créditos, titularidad y detalles de lanzamiento incompletos en herramientas fragmentadas.", "tag": "Available now"},
-        {"label": "Oportunidades", "title": "Cada intake puede convertirse en inteligencia de catálogo.", "description": "Un socio puede transformar envíos en leads, registros de lanzamiento, señales de conflicto y futuros flujos CRM.", "tag": "Pilot module"},
-        {"label": "Flujo de captación", "title": "Capture y califique propietarios de catálogo.", "description": "Catalogue Health Check guía prospectos por una evaluación estructurada en vez de mensajes sueltos.", "tag": "Available now"},
-        {"label": "Flujo de lanzamientos", "title": "Estandarice el envío de lanzamientos.", "description": "El intake puede recopilar activos, metadata, créditos y señales de preparación antes de revisión de distribución.", "tag": "Interactive concept"},
-        {"label": "Panel interno", "title": "Revise leads, brechas y acciones pendientes.", "description": "Los dashboards internos pueden organizar estados, documentos, notas y preguntas de derechos sin resolver.", "tag": "Pilot module"},
-        {"label": "Modelo white-label", "title": "Su marca puede vivir encima del workflow.", "description": "La interfaz puede cambiar marca, colores y posicionamiento manteniendo la arquitectura de plataforma.", "tag": "Custom development"},
-        {"label": "Roadmap", "title": "Integre storage, CRM y operación de distribución.", "description": "Futuras integraciones pueden conectar Supabase, Cloudflare R2, WhatsApp, contratos y flujos externos de derechos.", "tag": "Future integration"},
-        {"label": "Opciones de colaboración", "title": "Construir, licenciar u operar juntos.", "description": "El modelo puede soportar piloto, despliegue white-label, operación de revenue-share o desarrollo a medida.", "tag": "Custom development"},
-        {"label": "Solicitud de piloto", "title": "Empiece con un piloto enfocado.", "description": "Un pequeño flujo de intake puede validar demanda antes de invertir en automatización profunda.", "tag": "Available now"}
+        {
+          "label": "Problema actual",
+          "title": "La captación manual crea riesgo de metadata.",
+          "description": "Artistas, sellos y dueños de catálogos suelen enviar créditos, titularidad y detalles de lanzamiento incompletos en herramientas fragmentadas.",
+          "tag": "Available now"
+        },
+        {
+          "label": "Oportunidades",
+          "title": "Cada intake puede convertirse en inteligencia de catálogo.",
+          "description": "Un socio puede transformar envíos en leads, registros de lanzamiento, señales de conflicto y futuros flujos CRM.",
+          "tag": "Pilot module"
+        },
+        {
+          "label": "Flujo de captación",
+          "title": "Capture y califique propietarios de catálogo.",
+          "description": "Catalogue Health Check guía prospectos por una evaluación estructurada en vez de mensajes sueltos.",
+          "tag": "Available now"
+        },
+        {
+          "label": "Flujo de lanzamientos",
+          "title": "Estandarice el envío de lanzamientos.",
+          "description": "El intake puede recopilar activos, metadata, créditos y señales de preparación antes de revisión de distribución.",
+          "tag": "Interactive concept"
+        },
+        {
+          "label": "Panel interno",
+          "title": "Revise leads, brechas y acciones pendientes.",
+          "description": "Los dashboards internos pueden organizar estados, documentos, notas y preguntas de derechos sin resolver.",
+          "tag": "Pilot module"
+        },
+        {
+          "label": "Modelo white-label",
+          "title": "Su marca puede vivir encima del workflow.",
+          "description": "La interfaz puede cambiar marca, colores y posicionamiento manteniendo la arquitectura de plataforma.",
+          "tag": "Custom development"
+        },
+        {
+          "label": "Roadmap",
+          "title": "Integre storage, CRM y operación de distribución.",
+          "description": "Futuras integraciones pueden conectar Supabase, Cloudflare R2, WhatsApp, contratos y flujos externos de derechos.",
+          "tag": "Future integration"
+        },
+        {
+          "label": "Opciones de colaboración",
+          "title": "Construir, licenciar u operar juntos.",
+          "description": "El modelo puede soportar piloto, despliegue white-label, operación de revenue-share o desarrollo a medida.",
+          "tag": "Custom development"
+        },
+        {
+          "label": "Solicitud de piloto",
+          "title": "Empiece con un piloto enfocado.",
+          "description": "Un pequeño flujo de intake puede validar demanda antes de invertir en automatización profunda.",
+          "tag": "Available now"
+        }
       ],
       "whiteLabel": {
         "title": "Demostración white-label",
@@ -149,7 +278,13 @@
         "partner": "Your Brand",
         "portal": "Catalogue Operating Portal",
         "subtitle": "Onboarding, lanzamientos, conflictos y revisión interna en un workflow de marca.",
-        "metrics": ["1,248 grabaciones", "94 lanzamientos", "37 campos pendientes", "12 conflictos abiertos", "82% salud del catálogo"],
+        "metrics": [
+          "1,248 grabaciones",
+          "94 lanzamientos",
+          "37 campos pendientes",
+          "12 conflictos abiertos",
+          "82% salud del catálogo"
+        ],
         "note": "Illustrative catalogue data"
       }
     },
@@ -162,60 +297,126 @@
       "title": "Soluciones completas para derechos musicales y gestión de catálogo.",
       "description": "Una capa operativa enfocada en distribución, administración editorial, control de metadata y recuperación de valor del catálogo.",
       "items": [
-        {"title": "Distribución Musical", "description": "Soporte de lanzamiento, gestión de metadata y entrega a plataformas principales.", "href": "services/distribution"},
-        {"title": "Administración Editorial", "description": "Registro de obras, administración publishing y colección de regalías.", "href": "services/publishing"},
-        {"title": "Gestión de Catálogo", "description": "Auditorías de catálogo, revisión de titularidad y organización de metadata.", "href": "services/catalogue-management"}
+        {
+          "title": "Distribución Musical",
+          "description": "Soporte de lanzamiento, gestión de metadata y entrega a plataformas principales.",
+          "href": "services/distribution"
+        },
+        {
+          "title": "Administración Editorial",
+          "description": "Registro de obras, administración publishing y colección de regalías.",
+          "href": "services/publishing"
+        },
+        {
+          "title": "Gestión de Catálogo",
+          "description": "Auditorías de catálogo, revisión de titularidad y organización de metadata.",
+          "href": "services/catalogue-management"
+        }
       ]
     },
     "catalogueManagement": {
-      "meta": {"title": "Gestión de Catálogo", "description": "Auditorías, organización de derechos y corrección de metadata para dueños de música."},
+      "meta": {
+        "title": "Gestión de Catálogo",
+        "description": "Auditorías, organización de derechos y corrección de metadata para dueños de música."
+      },
       "eyebrow": "Inteligencia de catálogo",
       "title": "Convierte la complejidad del catálogo en valor organizado.",
       "description": "PTY Audio revisa titularidad, registros, metadata y rutas de regalías para que los dueños de catálogo sepan qué controlan y qué requiere acción.",
-      "points": ["Auditoría de catálogo", "Revisión de titularidad", "Corrección de metadata", "Organización de derechos"],
+      "points": [
+        "Auditoría de catálogo",
+        "Revisión de titularidad",
+        "Corrección de metadata",
+        "Organización de derechos"
+      ],
       "cta": "Iniciar Evaluación de Catálogo"
     },
     "publishing": {
-      "meta": {"title": "Servicios Publishing", "description": "Administración editorial para compositores, productores y dueños de derechos."},
+      "meta": {
+        "title": "Servicios Publishing",
+        "description": "Administración editorial para compositores, productores y dueños de derechos."
+      },
       "eyebrow": "Administración editorial",
       "title": "Protege composiciones y cobra valor editorial.",
       "description": "Ayudamos a compositores y dueños a organizar registros de obras, splits editoriales y flujos de colección de regalías.",
-      "points": ["Registro de obras", "Administración publishing", "Colección de regalías", "Gestión de compositores"],
+      "points": [
+        "Registro de obras",
+        "Administración publishing",
+        "Colección de regalías",
+        "Gestión de compositores"
+      ],
       "cta": "Solicitar Revisión Publishing"
     },
     "distribution": {
-      "meta": {"title": "Distribución Musical", "description": "Gestión profesional de lanzamientos y soporte de distribución digital para artistas y sellos."},
+      "meta": {
+        "title": "Distribución Musical",
+        "description": "Gestión profesional de lanzamientos y soporte de distribución digital para artistas y sellos."
+      },
       "eyebrow": "Distribución",
       "title": "Lanza música con metadata limpia y derechos listos.",
       "description": "PTY Audio apoya artistas y sellos con preparación de lanzamientos, entrega a plataformas, créditos y organización de activos digitales.",
-      "points": ["Distribución digital", "Gestión de metadata", "Soporte de lanzamiento", "Activos de YouTube"],
+      "points": [
+        "Distribución digital",
+        "Gestión de metadata",
+        "Soporte de lanzamiento",
+        "Activos de YouTube"
+      ],
       "cta": "Enviar mi Lanzamiento"
     },
     "resources": {
-      "meta": {"title": "Recursos", "description": "Guías e ideas sobre derechos de catálogo, regalías, publishing y distribución musical."},
+      "meta": {
+        "title": "Recursos",
+        "description": "Guías e ideas sobre derechos de catálogo, regalías, publishing y distribución musical."
+      },
       "eyebrow": "Recursos",
       "title": "Inteligencia práctica para dueños de derechos musicales.",
       "description": "Guías, explicaciones y notas de campo para artistas, productores, sellos y dueños de catálogo.",
       "items": [
-        {"title": "Bases de Salud de Catálogo", "description": "Cómo identificar brechas en metadata, titularidad y registros."},
-        {"title": "Publishing vs Distribución", "description": "Una vista clara de qué regalías controla cada sistema."},
-        {"title": "Señales de Recuperación de Regalías", "description": "Alertas comunes de que puede faltar dinero."}
+        {
+          "title": "Bases de Salud de Catálogo",
+          "description": "Cómo identificar brechas en metadata, titularidad y registros."
+        },
+        {
+          "title": "Publishing vs Distribución",
+          "description": "Una vista clara de qué regalías controla cada sistema."
+        },
+        {
+          "title": "Señales de Recuperación de Regalías",
+          "description": "Alertas comunes de que puede faltar dinero."
+        }
       ]
     },
     "about": {
-      "meta": {"title": "Nosotros", "description": "PTY Audio es una compañía premium de gestión de derechos musicales e inteligencia de catálogo."},
+      "meta": {
+        "title": "Nosotros",
+        "description": "PTY Audio es una compañía premium de gestión de derechos musicales e inteligencia de catálogo."
+      },
       "eyebrow": "Sobre PTY Audio",
       "title": "Gestionamos la infraestructura de negocio detrás de la propiedad musical.",
       "description": "PTY Audio está diseñado para creadores independientes y dueños de catálogo que necesitan claridad, protección y crecimiento en derechos, metadata y sistemas de ingresos.",
-      "stats": ["Concepto de plataforma interactiva", "Construida para integrarse con flujos de distribución", "Datos de prototipo mostrados para demostración"]
+      "stats": [
+        "Concepto de plataforma interactiva",
+        "Construida para integrarse con flujos de distribución",
+        "Datos de prototipo mostrados para demostración"
+      ]
     },
     "contact": {
-      "meta": {"title": "Contacto", "description": "Contacta a PTY Audio para revisar tu catálogo, lanzamiento o conflicto de derechos."},
+      "meta": {
+        "title": "Contacto",
+        "description": "Contacta a PTY Audio para revisar tu catálogo, lanzamiento o conflicto de derechos."
+      },
       "eyebrow": "Contacto",
       "title": "Empieza con una revisión enfocada de derechos.",
       "description": "Envía lo esencial y el equipo de PTY Audio dirigirá tu solicitud al flujo correcto.",
-      "fields": {"name": "Nombre", "email": "Email", "message": "Mensaje"},
-      "placeholders": {"name": "Tu nombre", "email": "nombre@ejemplo.com", "message": "Cuéntanos qué necesitas revisar."},
+      "fields": {
+        "name": "Nombre",
+        "email": "Email",
+        "message": "Mensaje"
+      },
+      "placeholders": {
+        "name": "Tu nombre",
+        "email": "nombre@ejemplo.com",
+        "message": "Cuéntanos qué necesitas revisar."
+      },
       "cta": "Enviar Solicitud"
     }
   },
@@ -226,7 +427,12 @@
     },
     "title": "Evaluación de Salud del Catálogo",
     "subtitle": "Cuéntanos cómo está organizado tu catálogo. PTY Audio revisará señales de derechos, metadata y riesgo de regalías.",
-    "steps": ["Perfil", "Catálogo", "Derechos", "Problemas"],
+    "steps": [
+      "Perfil",
+      "Catálogo",
+      "Derechos",
+      "Problemas"
+    ],
     "next": "Continuar",
     "back": "Atrás",
     "submit": "Enviar Revisión de Catálogo",
