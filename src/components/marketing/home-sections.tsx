@@ -110,7 +110,7 @@ function PartnersSection({
             {copy.title}
           </h2>
           <Link
-            href={`/${locale}/partner-demo`}
+            href={`/${locale}/partner-demo/live`}
             className="inline-flex h-11 items-center justify-center rounded-full border border-[#E50914]/50 px-5 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-[#E50914]/15"
           >
             {copy.cta}

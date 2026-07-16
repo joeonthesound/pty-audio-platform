@@ -87,11 +87,11 @@ export default function PartnerLiveDemoPage() {
         <aside className="hidden border-r border-[#1a1a1a] bg-[#080808] p-5 lg:flex lg:flex-col">
           <div className="flex items-center gap-3">
             <div className="grid size-10 place-items-center rounded-full bg-[#E50914] text-sm font-black">
-              YB
+              PTY
             </div>
             <div>
               <p className="text-sm font-semibold uppercase tracking-[0.24em]">
-                Your Brand
+                PTY Audio
               </p>
               <p className="text-xs text-white/38">Distribution OS</p>
             </div>

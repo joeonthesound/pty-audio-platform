@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { PartnerDemo } from "@/components/marketing/partner-demo";
 
@@ -42,6 +43,12 @@ export default async function PartnerDemoPage({ params }: PageProps) {
           <p className="mt-8 max-w-3xl text-lg leading-8 text-white/62">
             {t("description")}
           </p>
+          <Link
+            href={`/${locale}/partner-demo/live`}
+            className="mt-10 inline-flex h-12 items-center rounded-full bg-[#E50914] px-6 text-sm font-semibold text-white shadow-[0_0_32px_rgba(229,9,20,0.28)] transition-all hover:-translate-y-0.5 hover:bg-[#ff1020]"
+          >
+            Live Dashboard Demo
+          </Link>
         </div>
       </section>
 
