@@ -1,0 +1,75 @@
+{
+  "common": {
+    "brand": "PTY Audio",
+    "brandTagline": "管理音乐目录是我们的业务",
+    "language": "语言",
+    "theme": "主题"
+  },
+  "navigation": {
+    "home": "首页",
+    "services": "服务",
+    "catalogueManagement": "目录管理",
+    "publishing": "版权出版",
+    "distribution": "发行",
+    "resources": "资源",
+    "about": "关于我们",
+    "contact": "联系",
+    "cta": "评估目录"
+  },
+  "home": {
+    "meta": {"title": "PTY Audio", "description": "面向艺人、制作人与音乐目录所有者的高端音乐权利管理与目录智能平台。"},
+    "eyebrow": "独立音乐权利管理",
+    "titleLine1": "你的音乐拥有价值。",
+    "titleLine2": "我们帮助你保护它。",
+    "description": "为全球艺人、制作人和权利所有者提供音乐权利管理、出版管理、版税追回与数字发行。",
+    "primaryCta": "目录健康检查",
+    "secondaryCta": "提交音乐",
+    "trustLabel": "受到全球音乐创作者信任",
+    "scroll": "滚动",
+    "metrics": {"catalogueValue": "目录价值概览", "totalEstimate": "总估值", "royalties": "版税摘要", "health": "目录健康", "score": "82%", "status": "良好", "review": "需要审核"},
+    "partners": ["ASCAP", "BMI", "SESAC", "THE MLC", "SoundExchange", "CMRRA"],
+    "socialProof": {"title": "受到全球音乐创作者信任"},
+    "whatWeDo": {
+      "eyebrow": "我们做什么",
+      "title": "音乐权利与目录管理的完整解决方案",
+      "services": [
+        {"title": "音乐发行", "description": "数字发行、元数据管理以及主要平台发布支持。", "href": "services/distribution"},
+        {"title": "版权出版管理", "description": "作品登记、出版管理与全球版税收取。", "href": "services/publishing"},
+        {"title": "目录管理", "description": "完整目录审计、所有权审核、元数据修正与权利组织。", "href": "services/catalogue-management"},
+        {"title": "版税追回", "description": "识别缺失版税、登记缺口与收益认领机会。", "href": "contact"},
+        {"title": "权利冲突解决", "description": "处理所有权争议、重复登记、缺失署名与分成冲突。", "href": "contact"},
+        {"title": "YouTube 与数字资产", "description": "Content ID 管理、资产优化与数字目录收入保护。", "href": "contact"}
+      ],
+      "learnMore": "了解更多",
+      "stats": ["10K+ 管理目录", "150+ 覆盖国家", "$45M+ 追回版税", "15+ 年经验"]
+    },
+    "tools": {
+      "healthTitle": "目录健康检查", "releaseTitle": "提交发行", "conflictTitle": "解决权利冲突", "dashboardTitle": "客户仪表板",
+      "stepOne": "第 1 步，共 4 步", "stepTwo": "第 2 步，共 5 步", "stepThree": "第 3 步，共 6 步",
+      "userQuestion": "哪一项最符合你？", "releaseInformation": "发行信息", "conflictType": "冲突类型", "description": "描述", "continue": "继续", "back": "返回",
+      "releaseFields": ["发行标题", "发行类型", "音乐类型", "发行日期"],
+      "userTypes": ["艺人", "词曲作者", "制作人", "唱片厂牌", "出版方", "目录所有者"],
+      "conflicts": ["所有权", "版权申诉", "缺失作者", "分成争议"],
+      "dashboardStats": ["总收入", "流媒体", "出版", "YouTube"],
+      "recentReleases": ["Midnight Dreams", "Echoes of You", "Pure Again"]
+    },
+    "footer": {"description": "PTY Audio 是一家独立音乐权利管理与出版公司，帮助艺人与权利所有者在全球范围内最大化音乐价值。", "services": "服务", "company": "公司", "resources": "资源", "social": "社交媒体", "copyright": "© 2026 PTY Audio. 保留所有权利。", "createdBy": "Created by", "sitemap": "网站地图"}
+  },
+  "seo": {"organizationDescription": "PTY Audio 是一家服务艺人、制作人、词曲作者、厂牌与目录所有者的独立音乐权利与目录管理公司。", "heroServiceDescription": "音乐发行、出版管理、目录权利管理、版税追回与权利冲突解决。"},
+  "pages": {
+    "services": {"meta": {"title": "服务", "description": "为独立音乐目录提供音乐发行、出版、目录管理、版税追回与权利冲突解决。"}, "eyebrow": "权利基础设施", "title": "音乐权利与目录管理的完整解决方案。", "description": "专注于发行、出版管理、元数据控制与目录价值恢复的运营层。", "items": [{"title": "音乐发行", "description": "发布支持、元数据管理以及主要平台交付。", "href": "services/distribution"}, {"title": "版权出版管理", "description": "作者登记、出版管理与版税收取。", "href": "services/publishing"}, {"title": "目录管理", "description": "目录审计、所有权审核与元数据组织。", "href": "services/catalogue-management"}]},
+    "catalogueManagement": {"meta": {"title": "目录管理", "description": "为音乐所有者提供目录审计、权利组织与元数据修正。"}, "eyebrow": "目录智能", "title": "将目录复杂性转化为有序商业价值。", "description": "PTY Audio 审核所有权、登记、元数据与版税路径。", "points": ["目录审计", "所有权审核", "元数据修正", "权利组织"], "cta": "开始目录健康检查"},
+    "publishing": {"meta": {"title": "版权出版服务", "description": "面向词曲作者、制作人与权利所有者的出版管理。"}, "eyebrow": "出版管理", "title": "保护作品并收取出版价值。", "description": "我们帮助作者与所有者组织作品登记、出版分成和版税收取流程。", "points": ["作品登记", "出版管理", "版税收取", "作者管理"], "cta": "申请出版审核"},
+    "distribution": {"meta": {"title": "音乐发行", "description": "面向艺人与厂牌的专业发行管理和数字发行支持。"}, "eyebrow": "发行", "title": "用干净元数据和清晰权利发布音乐。", "description": "PTY Audio 支持发布准备、平台交付、署名与数字资产组织。", "points": ["数字发行", "元数据管理", "发布支持", "YouTube 资产"], "cta": "提交发行"},
+    "resources": {"meta": {"title": "资源", "description": "关于目录权利、版税、出版与音乐发行的指南和洞察。"}, "eyebrow": "资源", "title": "面向音乐权利所有者的实用情报。", "description": "面向艺人、制作人、厂牌与目录所有者的指南、解释和实践笔记。", "items": [{"title": "目录健康基础", "description": "如何识别元数据、所有权与登记缺口。"}, {"title": "出版 vs 发行", "description": "清晰理解各系统控制哪些版税。"}, {"title": "版税追回信号", "description": "可能存在缺失收入的常见警讯。"}]},
+    "about": {"meta": {"title": "关于我们", "description": "PTY Audio 是高端音乐权利管理与目录智能公司。"}, "eyebrow": "关于 PTY Audio", "title": "我们管理音乐所有权背后的商业基础设施。", "description": "PTY Audio 为需要权利、元数据与收入系统清晰度、保护和增长的独立创作者与目录所有者而构建。", "stats": ["10K+ 管理目录", "150+ 覆盖国家", "$45M+ 追回版税"]},
+    "contact": {"meta": {"title": "联系", "description": "联系 PTY Audio 审核你的目录、发行或音乐权利问题。"}, "eyebrow": "联系", "title": "从一次聚焦的权利审核开始。", "description": "发送基本信息，PTY Audio 团队会将你的请求分配到正确流程。", "fields": {"name": "姓名", "email": "邮箱", "message": "消息"}, "placeholders": {"name": "你的姓名", "email": "name@example.com", "message": "告诉我们需要审核什么。"}, "cta": "发送请求"}
+  },
+  "catalogueHealthCheck": {
+    "meta": {"title": "目录健康检查", "description": "用于音乐权利、元数据、版税与所有权风险的互动目录评估。"},
+    "title": "目录健康检查", "subtitle": "告诉我们你的目录如何组织。PTY Audio 将审核权利、元数据与版税风险信号。", "steps": ["资料", "目录", "权利", "问题"], "next": "继续", "back": "返回", "submit": "提交目录审核", "success": "你的目录审核已提交。", "failure": "无法提交审核，请重试。",
+    "fields": {"fullName": "全名", "email": "邮箱", "phone": "电话 / WhatsApp", "userType": "哪一项最符合你？", "songCount": "歌曲数量", "recordingCount": "录音数量", "releaseYears": "发行年份", "platforms": "平台", "rightsOrganizations": "权利组织", "problems": "当前问题", "notes": "补充说明"},
+    "placeholders": {"fullName": "输入你的全名", "email": "name@example.com", "phone": "+507...", "songCount": "25", "recordingCount": "12", "releaseYears": "2018-2026", "notes": "告诉我们应优先审核什么。"},
+    "options": {"userTypes": {"artist": "艺人", "producer": "制作人", "songwriter": "词曲作者", "label": "独立厂牌", "catalogueOwner": "目录所有者"}, "platforms": {"spotify": "Spotify", "appleMusic": "Apple Music", "youtube": "YouTube", "tiktok": "TikTok", "amazonMusic": "Amazon Music", "other": "其他"}, "rightsOrganizations": {"ascap": "ASCAP", "bmi": "BMI", "sesac": "SESAC", "mlc": "MLC", "cmrra": "CMRRA", "soundExchange": "SoundExchange"}, "problems": {"missingRoyalties": "缺失版税", "ownershipConflict": "所有权冲突", "metadataProblems": "元数据问题", "unregisteredWorks": "未登记作品", "duplicateRegistrations": "重复登记"}}
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "common": {
+    "brand": "PTY Audio",
+    "brandTagline": "Managing Catalogs is Our Business",
+    "language": "Language",
+    "theme": "Theme"
+  },
+  "navigation": {
+    "home": "Home",
+    "services": "Services",
+    "catalogueManagement": "Catalogue Management",
+    "publishing": "Publishing",
+    "distribution": "Distribution",
+    "resources": "Resources",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Evaluate Catalogue"
+  },
+  "home": {
+    "meta": {
+      "title": "PTY Audio",
+      "description": "Premium music rights management and catalogue intelligence platform for artists, producers and catalogue owners."
+    },
+    "eyebrow": "Independent music rights management",
+    "titleLine1": "Your Music Has Value.",
+    "titleLine2": "We Help You Protect It.",
+    "description": "Independent music rights management, publishing administration, royalty recovery and digital distribution for artists, producers and rights owners worldwide.",
+    "primaryCta": "Catalogue Health Check",
+    "secondaryCta": "Submit Your Music",
+    "trustLabel": "Trusted by music creators worldwide",
+    "scroll": "Scroll",
+    "metrics": {
+      "catalogueValue": "Catalogue Value Overview",
+      "totalEstimate": "Total Estimated Value",
+      "royalties": "Royalties Summary",
+      "health": "Catalogue Health",
+      "score": "82%",
+      "status": "Good",
+      "review": "Review needed"
+    },
+    "partners": ["ASCAP", "BMI", "SESAC", "THE MLC", "SoundExchange", "CMRRA"],
+    "socialProof": {
+      "title": "Trusted by music creators worldwide"
+    },
+    "whatWeDo": {
+      "eyebrow": "What we do",
+      "title": "Complete Solutions for Music Rights and Catalogue Management",
+      "services": [
+        {"title": "Music Distribution", "description": "Digital distribution, metadata management and release support across major platforms.", "href": "services/distribution"},
+        {"title": "Publishing Administration", "description": "Song registration, publishing management and worldwide royalty collection.", "href": "services/publishing"},
+        {"title": "Catalogue Management", "description": "Full catalogue audits, ownership review, metadata correction and rights organization.", "href": "services/catalogue-management"},
+        {"title": "Royalty Recovery", "description": "Identify missing royalties, registration gaps and claim opportunities across revenue streams.", "href": "contact"},
+        {"title": "Rights Conflict Resolution", "description": "Resolve ownership disputes, duplicate registrations, missing credits and split conflicts.", "href": "contact"},
+        {"title": "YouTube & Digital Assets", "description": "Content ID management, asset optimization and digital catalogue revenue protection.", "href": "contact"}
+      ],
+      "learnMore": "Learn more",
+      "stats": ["10K+ Catalogues Managed", "150+ Countries Covered", "$45M+ Royalties Recovered", "15+ Years of Experience"]
+    },
+    "tools": {
+      "healthTitle": "Catalogue Health Check",
+      "releaseTitle": "Submit Your Release",
+      "conflictTitle": "Resolve a Rights Conflict",
+      "dashboardTitle": "Client Dashboard",
+      "stepOne": "Step 1 of 4",
+      "stepTwo": "Step 2 of 5",
+      "stepThree": "Step 3 of 6",
+      "userQuestion": "What best describes you?",
+      "releaseInformation": "Release Information",
+      "conflictType": "Type of Conflict",
+      "description": "Description",
+      "continue": "Continue",
+      "back": "Back",
+      "releaseFields": ["Release Title", "Release Type", "Genre", "Release Date"],
+      "userTypes": ["Artist", "Songwriter", "Producer", "Record Label", "Publisher", "Catalogue Owner"],
+      "conflicts": ["Ownership", "Copyright claim", "Missing writer", "Split dispute"],
+      "dashboardStats": ["Total Revenue", "Streaming", "Publishing", "YouTube"],
+      "recentReleases": ["Midnight Dreams", "Echoes of You", "Pure Again"]
+    },
+    "footer": {
+      "description": "PTY Audio is an independent music rights management and publishing company helping artists and rights owners maximize the value of their music worldwide.",
+      "services": "Services",
+      "company": "Company",
+      "resources": "Resources",
+      "social": "Social",
+      "copyright": "© 2026 PTY Audio. All rights reserved.",
+      "createdBy": "Created by",
+      "sitemap": "Sitemap"
+    }
+  },
+  "seo": {
+    "organizationDescription": "PTY Audio is an independent music rights and catalogue management company for artists, producers, songwriters, labels and catalogue owners.",
+    "heroServiceDescription": "Music distribution, publishing administration, catalogue rights management, royalty recovery and rights conflict resolution."
+  },
+  "pages": {
+    "services": {
+      "meta": {
+        "title": "Services",
+        "description": "Music distribution, publishing, catalogue management, royalty recovery and rights conflict resolution for independent music catalogues."
+      },
+      "eyebrow": "Rights infrastructure",
+      "title": "Complete solutions for music rights and catalogue management.",
+      "description": "A focused operating layer for distribution, publishing administration, metadata control and catalogue value recovery.",
+      "items": [
+        {"title": "Music Distribution", "description": "Release support, metadata management and delivery to major platforms.", "href": "services/distribution"},
+        {"title": "Publishing Administration", "description": "Writer registration, publishing administration and royalty collection.", "href": "services/publishing"},
+        {"title": "Catalogue Management", "description": "Catalogue audits, ownership review and metadata organization.", "href": "services/catalogue-management"}
+      ]
+    },
+    "catalogueManagement": {
+      "meta": {"title": "Catalogue Management", "description": "Catalogue audits, rights organization and metadata correction for music owners."},
+      "eyebrow": "Catalogue intelligence",
+      "title": "Turn catalogue complexity into organized business value.",
+      "description": "PTY Audio reviews ownership, registrations, metadata and royalty pathways so catalogue owners can see what they control and what needs action.",
+      "points": ["Catalogue audit", "Ownership review", "Metadata correction", "Rights organization"],
+      "cta": "Start Catalogue Health Check"
+    },
+    "publishing": {
+      "meta": {"title": "Publishing Services", "description": "Publishing administration for songwriters, producers and rights owners."},
+      "eyebrow": "Publishing administration",
+      "title": "Protect compositions and collect publishing value.",
+      "description": "We help writers and owners organize song registrations, publishing splits and royalty collection workflows.",
+      "points": ["Song registration", "Publishing administration", "Royalty collection", "Writer management"],
+      "cta": "Request Publishing Review"
+    },
+    "distribution": {
+      "meta": {"title": "Music Distribution", "description": "Professional release management and digital distribution support for artists and labels."},
+      "eyebrow": "Distribution",
+      "title": "Release music with clean metadata and rights readiness.",
+      "description": "PTY Audio supports artists and labels with release preparation, platform delivery, credits and digital asset organization.",
+      "points": ["Digital distribution", "Metadata management", "Release support", "YouTube assets"],
+      "cta": "Submit Your Release"
+    },
+    "resources": {
+      "meta": {"title": "Resources", "description": "Guides and insights about catalogue rights, royalties, publishing and music distribution."},
+      "eyebrow": "Resources",
+      "title": "Practical intelligence for music rights owners.",
+      "description": "Guides, explainers and field notes for artists, producers, labels and catalogue owners.",
+      "items": [
+        {"title": "Catalogue Health Basics", "description": "How to identify gaps in metadata, ownership and registrations."},
+        {"title": "Publishing vs Distribution", "description": "A clear view of which royalties each system controls."},
+        {"title": "Royalty Recovery Signals", "description": "Common warning signs that money may be missing."}
+      ]
+    },
+    "about": {
+      "meta": {"title": "About", "description": "PTY Audio is a premium music rights management and catalogue intelligence company."},
+      "eyebrow": "About PTY Audio",
+      "title": "We manage the business infrastructure behind music ownership.",
+      "description": "PTY Audio is built for independent creators and catalogue owners who need clarity, protection and growth across rights, metadata and revenue systems.",
+      "stats": ["10K+ catalogues managed", "150+ countries covered", "$45M+ royalties recovered"]
+    },
+    "contact": {
+      "meta": {"title": "Contact", "description": "Contact PTY Audio to review your catalogue, release or music rights issue."},
+      "eyebrow": "Contact",
+      "title": "Start with a focused rights review.",
+      "description": "Send the essentials and the PTY Audio team will route your request to the right workflow.",
+      "fields": {"name": "Name", "email": "Email", "message": "Message"},
+      "placeholders": {"name": "Your name", "email": "name@example.com", "message": "Tell us what you need reviewed."},
+      "cta": "Send Request"
+    }
+  },
+  "catalogueHealthCheck": {
+    "meta": {
+      "title": "Catalogue Health Check",
+      "description": "Interactive catalogue evaluation for music rights, metadata, royalties and ownership risk."
+    },
+    "title": "Catalogue Health Check",
+    "subtitle": "Tell us how your catalogue is organized. PTY Audio will review the rights, metadata and royalty risk signals.",
+    "steps": ["Profile", "Catalogue", "Rights", "Problems"],
+    "next": "Continue",
+    "back": "Back",
+    "submit": "Submit Catalogue Review",
+    "success": "Your catalogue review was submitted.",
+    "failure": "We could not submit the review. Please try again.",
+    "fields": {
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone / WhatsApp",
+      "userType": "What best describes you?",
+      "songCount": "Number of songs",
+      "recordingCount": "Number of recordings",
+      "releaseYears": "Release years",
+      "platforms": "Platforms",
+      "rightsOrganizations": "Rights organizations",
+      "problems": "Current problems",
+      "notes": "Additional notes"
+    },
+    "placeholders": {
+      "fullName": "Enter your full name",
+      "email": "name@example.com",
+      "phone": "+507...",
+      "songCount": "25",
+      "recordingCount": "12",
+      "releaseYears": "2018-2026",
+      "notes": "Tell us anything we should review first."
+    },
+    "options": {
+      "userTypes": {
+        "artist": "Artist",
+        "producer": "Producer",
+        "songwriter": "Songwriter",
+        "label": "Independent Label",
+        "catalogueOwner": "Catalogue Owner"
+      },
+      "platforms": {
+        "spotify": "Spotify",
+        "appleMusic": "Apple Music",
+        "youtube": "YouTube",
+        "tiktok": "TikTok",
+        "amazonMusic": "Amazon Music",
+        "other": "Other"
+      },
+      "rightsOrganizations": {
+        "ascap": "ASCAP",
+        "bmi": "BMI",
+        "sesac": "SESAC",
+        "mlc": "MLC",
+        "cmrra": "CMRRA",
+        "soundExchange": "SoundExchange"
+      },
+      "problems": {
+        "missingRoyalties": "Missing royalties",
+        "ownershipConflict": "Ownership conflict",
+        "metadataProblems": "Metadata problems",
+        "unregisteredWorks": "Unregistered works",
+        "duplicateRegistrations": "Duplicate registrations"
+      }
+    }
+  }
+}

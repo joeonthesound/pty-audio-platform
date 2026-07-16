@@ -1,0 +1,39 @@
+{
+  "hero": {
+    "src": "https://media.istockphoto.com/id/946506102/es/foto/cantante-actuando-en-el-escenario.webp?a=1&b=1&s=612x612&w=0&k=20&c=x1GGQ7jxczF8QhPPXQsmUHAI7EMd6021Oyd6Qu1eKs8=",
+    "alt": {
+      "en": "Singer performing on stage",
+      "es": "Cantante actuando en el escenario"
+    }
+  },
+  "logo": {
+    "src": "/pty-audio-mark.svg",
+    "alt": {
+      "en": "PTY Audio logo mark",
+      "es": "Marca de logo de PTY Audio"
+    }
+  },
+  "services": {
+    "distribution": {
+      "src": "https://media.istockphoto.com/id/946506102/es/foto/cantante-actuando-en-el-escenario.webp?a=1&b=1&s=612x612&w=0&k=20&c=x1GGQ7jxczF8QhPPXQsmUHAI7EMd6021Oyd6Qu1eKs8=",
+      "alt": {
+        "en": "Live performance for distribution services",
+        "es": "Presentación en vivo para servicios de distribución"
+      }
+    },
+    "publishing": {
+      "src": "https://media.istockphoto.com/id/946506102/es/foto/cantante-actuando-en-el-escenario.webp?a=1&b=1&s=612x612&w=0&k=20&c=x1GGQ7jxczF8QhPPXQsmUHAI7EMd6021Oyd6Qu1eKs8=",
+      "alt": {
+        "en": "Stage performance for publishing services",
+        "es": "Presentación en escenario para servicios de publishing"
+      }
+    },
+    "catalogueManagement": {
+      "src": "https://media.istockphoto.com/id/946506102/es/foto/cantante-actuando-en-el-escenario.webp?a=1&b=1&s=612x612&w=0&k=20&c=x1GGQ7jxczF8QhPPXQsmUHAI7EMd6021Oyd6Qu1eKs8=",
+      "alt": {
+        "en": "Music catalogue management visual",
+        "es": "Visual de gestión de catálogo musical"
+      }
+    }
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "common": {
+    "brand": "PTY Audio",
+    "brandTagline": "Gestionar catálogos es nuestro negocio",
+    "language": "Idioma",
+    "theme": "Tema"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "services": "Servicios",
+    "catalogueManagement": "Gestión de Catálogo",
+    "publishing": "Publishing",
+    "distribution": "Distribución",
+    "resources": "Recursos",
+    "about": "Nosotros",
+    "contact": "Contacto",
+    "cta": "Evaluar Catálogo"
+  },
+  "home": {
+    "meta": {
+      "title": "PTY Audio",
+      "description": "Plataforma premium de gestión de derechos musicales e inteligencia de catálogo para artistas, productores y dueños de catálogo."
+    },
+    "eyebrow": "Gestión independiente de derechos musicales",
+    "titleLine1": "Tu música tiene valor.",
+    "titleLine2": "Te ayudamos a protegerla.",
+    "description": "Gestión independiente de derechos musicales, administración editorial, recuperación de regalías y distribución digital para artistas, productores y dueños de derechos en todo el mundo.",
+    "primaryCta": "Evaluar mi Catálogo",
+    "secondaryCta": "Enviar mi Música",
+    "trustLabel": "Con la confianza de creadores musicales globales",
+    "scroll": "Scroll",
+    "metrics": {
+      "catalogueValue": "Resumen de Valor del Catálogo",
+      "totalEstimate": "Valor Total Estimado",
+      "royalties": "Resumen de Regalías",
+      "health": "Salud del Catálogo",
+      "score": "82%",
+      "status": "Bueno",
+      "review": "Revisión requerida"
+    },
+    "partners": ["ASCAP", "BMI", "SESAC", "THE MLC", "SoundExchange", "CMRRA"],
+    "socialProof": {
+      "title": "Con la confianza de creadores musicales globales"
+    },
+    "whatWeDo": {
+      "eyebrow": "Qué hacemos",
+      "title": "Soluciones completas para derechos musicales y gestión de catálogo",
+      "services": [
+        {"title": "Distribución Musical", "description": "Distribución digital, gestión de metadata y soporte de lanzamiento en plataformas principales.", "href": "services/distribution"},
+        {"title": "Administración Publishing", "description": "Registro de obras, gestión editorial y colección global de regalías.", "href": "services/publishing"},
+        {"title": "Gestión de Catálogo", "description": "Auditorías completas, revisión de titularidad, corrección de metadata y organización de derechos.", "href": "services/catalogue-management"},
+        {"title": "Recuperación de Regalías", "description": "Identifica regalías faltantes, brechas de registro y oportunidades de reclamo.", "href": "contact"},
+        {"title": "Resolución de Conflictos", "description": "Resuelve disputas de titularidad, registros duplicados, créditos faltantes y conflictos de splits.", "href": "contact"},
+        {"title": "YouTube y Activos Digitales", "description": "Gestión de Content ID, optimización de activos y protección de ingresos digitales.", "href": "contact"}
+      ],
+      "learnMore": "Ver más",
+      "stats": ["10K+ Catálogos Gestionados", "150+ Países Cubiertos", "$45M+ Regalías Recuperadas", "15+ Años de Experiencia"]
+    },
+    "tools": {
+      "healthTitle": "Evaluación de Catálogo",
+      "releaseTitle": "Enviar tu Lanzamiento",
+      "conflictTitle": "Resolver Conflicto de Derechos",
+      "dashboardTitle": "Panel de Cliente",
+      "stepOne": "Paso 1 de 4",
+      "stepTwo": "Paso 2 de 5",
+      "stepThree": "Paso 3 de 6",
+      "userQuestion": "¿Qué te describe mejor?",
+      "releaseInformation": "Información del Lanzamiento",
+      "conflictType": "Tipo de Conflicto",
+      "description": "Descripción",
+      "continue": "Continuar",
+      "back": "Atrás",
+      "releaseFields": ["Título del lanzamiento", "Tipo de lanzamiento", "Género", "Fecha de lanzamiento"],
+      "userTypes": ["Artista", "Compositor", "Productor", "Sello", "Publisher", "Dueño de Catálogo"],
+      "conflicts": ["Titularidad", "Reclamo copyright", "Compositor faltante", "Disputa de split"],
+      "dashboardStats": ["Ingreso Total", "Streaming", "Publishing", "YouTube"],
+      "recentReleases": ["Midnight Dreams", "Echoes of You", "Pure Again"]
+    },
+    "footer": {
+      "description": "PTY Audio es una compañía independiente de gestión de derechos musicales y publishing que ayuda a artistas y dueños de derechos a maximizar el valor de su música globalmente.",
+      "services": "Servicios",
+      "company": "Compañía",
+      "resources": "Recursos",
+      "social": "Redes Sociales",
+      "copyright": "© 2026 PTY Audio. Todos los derechos reservados.",
+      "createdBy": "Created by",
+      "sitemap": "Mapa del sitio"
+    }
+  },
+  "seo": {
+    "organizationDescription": "PTY Audio es una compañía independiente de gestión de derechos musicales y catálogos para artistas, productores, compositores, sellos y dueños de catálogo.",
+    "heroServiceDescription": "Distribución musical, administración editorial, gestión de derechos de catálogo, recuperación de regalías y resolución de conflictos de derechos."
+  },
+  "pages": {
+    "services": {
+      "meta": {
+        "title": "Servicios",
+        "description": "Distribución musical, publishing, gestión de catálogo, recuperación de regalías y resolución de conflictos para catálogos independientes."
+      },
+      "eyebrow": "Infraestructura de derechos",
+      "title": "Soluciones completas para derechos musicales y gestión de catálogo.",
+      "description": "Una capa operativa enfocada en distribución, administración editorial, control de metadata y recuperación de valor del catálogo.",
+      "items": [
+        {"title": "Distribución Musical", "description": "Soporte de lanzamiento, gestión de metadata y entrega a plataformas principales.", "href": "services/distribution"},
+        {"title": "Administración Editorial", "description": "Registro de obras, administración publishing y colección de regalías.", "href": "services/publishing"},
+        {"title": "Gestión de Catálogo", "description": "Auditorías de catálogo, revisión de titularidad y organización de metadata.", "href": "services/catalogue-management"}
+      ]
+    },
+    "catalogueManagement": {
+      "meta": {"title": "Gestión de Catálogo", "description": "Auditorías, organización de derechos y corrección de metadata para dueños de música."},
+      "eyebrow": "Inteligencia de catálogo",
+      "title": "Convierte la complejidad del catálogo en valor organizado.",
+      "description": "PTY Audio revisa titularidad, registros, metadata y rutas de regalías para que los dueños de catálogo sepan qué controlan y qué requiere acción.",
+      "points": ["Auditoría de catálogo", "Revisión de titularidad", "Corrección de metadata", "Organización de derechos"],
+      "cta": "Iniciar Evaluación de Catálogo"
+    },
+    "publishing": {
+      "meta": {"title": "Servicios Publishing", "description": "Administración editorial para compositores, productores y dueños de derechos."},
+      "eyebrow": "Administración editorial",
+      "title": "Protege composiciones y cobra valor editorial.",
+      "description": "Ayudamos a compositores y dueños a organizar registros de obras, splits editoriales y flujos de colección de regalías.",
+      "points": ["Registro de obras", "Administración publishing", "Colección de regalías", "Gestión de compositores"],
+      "cta": "Solicitar Revisión Publishing"
+    },
+    "distribution": {
+      "meta": {"title": "Distribución Musical", "description": "Gestión profesional de lanzamientos y soporte de distribución digital para artistas y sellos."},
+      "eyebrow": "Distribución",
+      "title": "Lanza música con metadata limpia y derechos listos.",
+      "description": "PTY Audio apoya artistas y sellos con preparación de lanzamientos, entrega a plataformas, créditos y organización de activos digitales.",
+      "points": ["Distribución digital", "Gestión de metadata", "Soporte de lanzamiento", "Activos de YouTube"],
+      "cta": "Enviar mi Lanzamiento"
+    },
+    "resources": {
+      "meta": {"title": "Recursos", "description": "Guías e ideas sobre derechos de catálogo, regalías, publishing y distribución musical."},
+      "eyebrow": "Recursos",
+      "title": "Inteligencia práctica para dueños de derechos musicales.",
+      "description": "Guías, explicaciones y notas de campo para artistas, productores, sellos y dueños de catálogo.",
+      "items": [
+        {"title": "Bases de Salud de Catálogo", "description": "Cómo identificar brechas en metadata, titularidad y registros."},
+        {"title": "Publishing vs Distribución", "description": "Una vista clara de qué regalías controla cada sistema."},
+        {"title": "Señales de Recuperación de Regalías", "description": "Alertas comunes de que puede faltar dinero."}
+      ]
+    },
+    "about": {
+      "meta": {"title": "Nosotros", "description": "PTY Audio es una compañía premium de gestión de derechos musicales e inteligencia de catálogo."},
+      "eyebrow": "Sobre PTY Audio",
+      "title": "Gestionamos la infraestructura de negocio detrás de la propiedad musical.",
+      "description": "PTY Audio está diseñado para creadores independientes y dueños de catálogo que necesitan claridad, protección y crecimiento en derechos, metadata y sistemas de ingresos.",
+      "stats": ["10K+ catálogos gestionados", "150+ países cubiertos", "$45M+ regalías recuperadas"]
+    },
+    "contact": {
+      "meta": {"title": "Contacto", "description": "Contacta a PTY Audio para revisar tu catálogo, lanzamiento o conflicto de derechos."},
+      "eyebrow": "Contacto",
+      "title": "Empieza con una revisión enfocada de derechos.",
+      "description": "Envía lo esencial y el equipo de PTY Audio dirigirá tu solicitud al flujo correcto.",
+      "fields": {"name": "Nombre", "email": "Email", "message": "Mensaje"},
+      "placeholders": {"name": "Tu nombre", "email": "nombre@ejemplo.com", "message": "Cuéntanos qué necesitas revisar."},
+      "cta": "Enviar Solicitud"
+    }
+  },
+  "catalogueHealthCheck": {
+    "meta": {
+      "title": "Evaluación de Salud del Catálogo",
+      "description": "Evaluación interactiva de catálogo para derechos musicales, metadata, regalías y riesgo de titularidad."
+    },
+    "title": "Evaluación de Salud del Catálogo",
+    "subtitle": "Cuéntanos cómo está organizado tu catálogo. PTY Audio revisará señales de derechos, metadata y riesgo de regalías.",
+    "steps": ["Perfil", "Catálogo", "Derechos", "Problemas"],
+    "next": "Continuar",
+    "back": "Atrás",
+    "submit": "Enviar Revisión de Catálogo",
+    "success": "Tu revisión de catálogo fue enviada.",
+    "failure": "No pudimos enviar la revisión. Inténtalo nuevamente.",
+    "fields": {
+      "fullName": "Nombre completo",
+      "email": "Email",
+      "phone": "Teléfono / WhatsApp",
+      "userType": "¿Qué te describe mejor?",
+      "songCount": "Número de canciones",
+      "recordingCount": "Número de grabaciones",
+      "releaseYears": "Años de lanzamiento",
+      "platforms": "Plataformas",
+      "rightsOrganizations": "Organizaciones de derechos",
+      "problems": "Problemas actuales",
+      "notes": "Notas adicionales"
+    },
+    "placeholders": {
+      "fullName": "Escribe tu nombre completo",
+      "email": "nombre@ejemplo.com",
+      "phone": "+507...",
+      "songCount": "25",
+      "recordingCount": "12",
+      "releaseYears": "2018-2026",
+      "notes": "Cuéntanos qué deberíamos revisar primero."
+    },
+    "options": {
+      "userTypes": {
+        "artist": "Artista",
+        "producer": "Productor",
+        "songwriter": "Compositor",
+        "label": "Sello independiente",
+        "catalogueOwner": "Dueño de catálogo"
+      },
+      "platforms": {
+        "spotify": "Spotify",
+        "appleMusic": "Apple Music",
+        "youtube": "YouTube",
+        "tiktok": "TikTok",
+        "amazonMusic": "Amazon Music",
+        "other": "Otra"
+      },
+      "rightsOrganizations": {
+        "ascap": "ASCAP",
+        "bmi": "BMI",
+        "sesac": "SESAC",
+        "mlc": "MLC",
+        "cmrra": "CMRRA",
+        "soundExchange": "SoundExchange"
+      },
+      "problems": {
+        "missingRoyalties": "Regalías faltantes",
+        "ownershipConflict": "Conflicto de titularidad",
+        "metadataProblems": "Problemas de metadata",
+        "unregisteredWorks": "Obras no registradas",
+        "duplicateRegistrations": "Registros duplicados"
+      }
+    }
+  }
+}
