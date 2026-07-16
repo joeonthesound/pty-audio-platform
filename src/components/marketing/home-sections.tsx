@@ -139,28 +139,6 @@ function PartnersSection({
   );
 }
 
-function SocialProof({ title, partners }: { title: string; partners: string[] }) {
-  return (
-    <section className="border-y border-white/8 bg-[#050505] px-5 py-10 sm:px-8">
-      <div className="mx-auto max-w-7xl">
-        <p className="text-center text-[11px] font-semibold uppercase tracking-[0.28em] text-white/35">
-          {title}
-        </p>
-        <div className="mt-8 flex flex-wrap items-center justify-center gap-x-10 gap-y-5">
-          {partners.map((partner) => (
-            <span
-              key={partner}
-              className="text-sm font-semibold uppercase tracking-[0.16em] text-white/48 grayscale transition-colors hover:text-white/75"
-            >
-              {partner}
-            </span>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
-
 function WhatWeDo({
   locale,
   copy,

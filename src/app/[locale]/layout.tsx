@@ -1,8 +1,7 @@
 import { hasLocale, NextIntlClientProvider } from "next-intl";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 import { notFound } from "next/navigation";
-import { SiteFooter } from "@/components/marketing/site-footer";
-import { SiteHeader } from "@/components/marketing/site-header";
+import { SiteChrome } from "@/components/marketing/site-chrome";
 import { routing } from "@/i18n/routing";
 import { getImage } from "@/lib/images";
 
@@ -71,27 +70,30 @@ export default async function LocaleLayout({
   return (
     <NextIntlClientProvider>
       <div className="dark min-h-screen bg-[#050505] text-white">
-        <SiteHeader
-          locale={locale}
-          brand={common("brand")}
-          logo={{ src: logoImage.src, alt: logoImage.alt.en }}
-          navItems={navItems}
-          cta={nav("cta")}
-        />
-        {children}
-        <SiteFooter
-          locale={locale}
-          copy={{
-            description: footer("description"),
-            services: footer("services"),
-            company: footer("company"),
-            resources: footer("resources"),
-            social: footer("social"),
-            copyright: footer("copyright"),
-            createdBy: footer("createdBy"),
-            sitemap: footer("sitemap"),
+        <SiteChrome
+          header={{
+            locale,
+            brand: common("brand"),
+            logo: { src: logoImage.src, alt: logoImage.alt.en },
+            navItems,
+            cta: nav("cta"),
           }}
-        />
+          footer={{
+            locale,
+            copy: {
+              description: footer("description"),
+              services: footer("services"),
+              company: footer("company"),
+              resources: footer("resources"),
+              social: footer("social"),
+              copyright: footer("copyright"),
+              createdBy: footer("createdBy"),
+              sitemap: footer("sitemap"),
+            },
+          }}
+        >
+          {children}
+        </SiteChrome>
       </div>
     </NextIntlClientProvider>
   );
