@@ -76,7 +76,8 @@
           "tag": "Pilot module"
         }
       ],
-      "cta": "View partner demo"
+      "cta": "View partner overview",
+      "liveCta": "Open live dashboard"
     },
     "tools": {
       "healthTitle": "Catalogue Health Check",

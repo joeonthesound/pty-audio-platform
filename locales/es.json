@@ -76,7 +76,8 @@
           "tag": "Pilot module"
         }
       ],
-      "cta": "Ver demo para partners"
+      "cta": "Ver demo para partners",
+      "liveCta": "Abrir dashboard en vivo"
     },
     "tools": {
       "healthTitle": "Evaluación de Catálogo",

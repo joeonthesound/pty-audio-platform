@@ -188,7 +188,8 @@
           "tag": "Pilot module"
         }
       ],
-      "cta": "View partner demo"
+      "cta": "View partner overview",
+      "liveCta": "Open live dashboard"
     }
   },
   "seo": {

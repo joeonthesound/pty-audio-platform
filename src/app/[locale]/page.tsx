@@ -110,6 +110,7 @@ export default async function HomePage({
             eyebrow: t("partnersSection.eyebrow"),
             title: t("partnersSection.title"),
             cta: t("partnersSection.cta"),
+            liveCta: t("partnersSection.liveCta"),
             items: t.raw("partnersSection.items"),
           },
           tools: {

@@ -29,6 +29,7 @@ type HomeSectionsProps = {
       eyebrow: string;
       title: string;
       cta: string;
+      liveCta: string;
       items: Array<{
         title: string;
         description: string;
@@ -109,12 +110,20 @@ function PartnersSection({
           <h2 className="max-w-3xl text-3xl font-semibold leading-tight text-white sm:text-4xl">
             {copy.title}
           </h2>
-          <Link
-            href={`/${locale}/partner-demo/live`}
-            className="inline-flex h-11 items-center justify-center rounded-full border border-[#E50914]/50 px-5 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-[#E50914]/15"
-          >
-            {copy.cta}
-          </Link>
+          <div className="flex flex-wrap gap-3">
+            <Link
+              href={`/${locale}/partner-demo`}
+              className="inline-flex h-11 items-center justify-center rounded-full bg-[#E50914] px-5 text-sm font-semibold text-white shadow-[0_0_28px_rgba(229,9,20,0.22)] transition-all hover:-translate-y-0.5 hover:bg-[#ff1020]"
+            >
+              {copy.cta}
+            </Link>
+            <Link
+              href={`/${locale}/partner-demo/live`}
+              className="inline-flex h-11 items-center justify-center rounded-full border border-[#E50914]/50 px-5 text-sm font-semibold text-white transition-all hover:-translate-y-0.5 hover:bg-[#E50914]/15"
+            >
+              {copy.liveCta}
+            </Link>
+          </div>
         </div>
         <div className="mt-10 grid gap-4 md:grid-cols-3">
           {copy.items.map((item) => (
