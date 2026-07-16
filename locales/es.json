@@ -27,7 +27,7 @@
     "description": "Gestión independiente de derechos musicales, administración editorial, recuperación de regalías y distribución digital para artistas, productores y dueños de derechos en todo el mundo.",
     "primaryCta": "Evaluar mi Catálogo",
     "secondaryCta": "Enviar mi Música",
-    "trustLabel": "Con la confianza de creadores musicales globales",
+    "trustLabel": "Ecosistemas de derechos que la plataforma está diseñada para soportar",
     "scroll": "Scroll",
     "metrics": {
       "catalogueValue": "Resumen de Valor del Catálogo",
@@ -40,7 +40,7 @@
     },
     "partners": ["ASCAP", "BMI", "SESAC", "THE MLC", "SoundExchange", "CMRRA"],
     "socialProof": {
-      "title": "Con la confianza de creadores musicales globales"
+      "title": "Ecosistemas de derechos que la plataforma está diseñada para soportar"
     },
     "whatWeDo": {
       "eyebrow": "Qué hacemos",
@@ -54,7 +54,7 @@
         {"title": "YouTube y Activos Digitales", "description": "Gestión de Content ID, optimización de activos y protección de ingresos digitales.", "href": "contact"}
       ],
       "learnMore": "Ver más",
-      "stats": ["10K+ Catálogos Gestionados", "150+ Países Cubiertos", "$45M+ Regalías Recuperadas", "15+ Años de Experiencia"]
+      "stats": ["Concepto de plataforma interactiva", "Diseñada para ecosistemas globales de derechos", "Las métricas de tu catálogo podrían vivir aquí", "Datos de prototipo mostrados para demostración"]
     },
     "tools": {
       "healthTitle": "Evaluación de Catálogo",
@@ -146,7 +146,7 @@
       "eyebrow": "Sobre PTY Audio",
       "title": "Gestionamos la infraestructura de negocio detrás de la propiedad musical.",
       "description": "PTY Audio está diseñado para creadores independientes y dueños de catálogo que necesitan claridad, protección y crecimiento en derechos, metadata y sistemas de ingresos.",
-      "stats": ["10K+ catálogos gestionados", "150+ países cubiertos", "$45M+ regalías recuperadas"]
+      "stats": ["Concepto de plataforma interactiva", "Construida para integrarse con flujos de distribución", "Datos de prototipo mostrados para demostración"]
     },
     "contact": {
       "meta": {"title": "Contacto", "description": "Contacta a PTY Audio para revisar tu catálogo, lanzamiento o conflicto de derechos."},

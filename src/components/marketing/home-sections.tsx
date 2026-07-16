@@ -149,11 +149,8 @@ function WhatWeDo({
         <aside className="grid content-start gap-6 border-white/10 lg:border-l lg:pl-8">
           {copy.stats.map((stat) => (
             <div key={stat}>
-              <p className="text-3xl font-semibold text-[#E50914]">
-                {stat.split(" ")[0]}
-              </p>
-              <p className="mt-1 text-sm leading-5 text-white/62">
-                {stat.replace(`${stat.split(" ")[0]} `, "")}
+              <p className="text-lg font-semibold leading-6 text-[#E50914]">
+                {stat}
               </p>
             </div>
           ))}

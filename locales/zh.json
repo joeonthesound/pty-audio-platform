@@ -24,11 +24,11 @@
     "description": "为全球艺人、制作人和权利所有者提供音乐权利管理、出版管理、版税追回与数字发行。",
     "primaryCta": "目录健康检查",
     "secondaryCta": "提交音乐",
-    "trustLabel": "受到全球音乐创作者信任",
+    "trustLabel": "平台设计支持的权利生态系统",
     "scroll": "滚动",
     "metrics": {"catalogueValue": "目录价值概览", "totalEstimate": "总估值", "royalties": "版税摘要", "health": "目录健康", "score": "82%", "status": "良好", "review": "需要审核"},
     "partners": ["ASCAP", "BMI", "SESAC", "THE MLC", "SoundExchange", "CMRRA"],
-    "socialProof": {"title": "受到全球音乐创作者信任"},
+    "socialProof": {"title": "平台设计支持的权利生态系统"},
     "whatWeDo": {
       "eyebrow": "我们做什么",
       "title": "音乐权利与目录管理的完整解决方案",
@@ -41,7 +41,7 @@
         {"title": "YouTube 与数字资产", "description": "Content ID 管理、资产优化与数字目录收入保护。", "href": "contact"}
       ],
       "learnMore": "了解更多",
-      "stats": ["10K+ 管理目录", "150+ 覆盖国家", "$45M+ 追回版税", "15+ 年经验"]
+      "stats": ["交互式平台概念", "为全球权利生态系统而设计", "你的目录指标可以显示在这里", "原型数据仅用于演示"]
     },
     "tools": {
       "healthTitle": "目录健康检查", "releaseTitle": "提交发行", "conflictTitle": "解决权利冲突", "dashboardTitle": "客户仪表板",
@@ -62,7 +62,7 @@
     "publishing": {"meta": {"title": "版权出版服务", "description": "面向词曲作者、制作人与权利所有者的出版管理。"}, "eyebrow": "出版管理", "title": "保护作品并收取出版价值。", "description": "我们帮助作者与所有者组织作品登记、出版分成和版税收取流程。", "points": ["作品登记", "出版管理", "版税收取", "作者管理"], "cta": "申请出版审核"},
     "distribution": {"meta": {"title": "音乐发行", "description": "面向艺人与厂牌的专业发行管理和数字发行支持。"}, "eyebrow": "发行", "title": "用干净元数据和清晰权利发布音乐。", "description": "PTY Audio 支持发布准备、平台交付、署名与数字资产组织。", "points": ["数字发行", "元数据管理", "发布支持", "YouTube 资产"], "cta": "提交发行"},
     "resources": {"meta": {"title": "资源", "description": "关于目录权利、版税、出版与音乐发行的指南和洞察。"}, "eyebrow": "资源", "title": "面向音乐权利所有者的实用情报。", "description": "面向艺人、制作人、厂牌与目录所有者的指南、解释和实践笔记。", "items": [{"title": "目录健康基础", "description": "如何识别元数据、所有权与登记缺口。"}, {"title": "出版 vs 发行", "description": "清晰理解各系统控制哪些版税。"}, {"title": "版税追回信号", "description": "可能存在缺失收入的常见警讯。"}]},
-    "about": {"meta": {"title": "关于我们", "description": "PTY Audio 是高端音乐权利管理与目录智能公司。"}, "eyebrow": "关于 PTY Audio", "title": "我们管理音乐所有权背后的商业基础设施。", "description": "PTY Audio 为需要权利、元数据与收入系统清晰度、保护和增长的独立创作者与目录所有者而构建。", "stats": ["10K+ 管理目录", "150+ 覆盖国家", "$45M+ 追回版税"]},
+    "about": {"meta": {"title": "关于我们", "description": "PTY Audio 是高端音乐权利管理与目录智能公司。"}, "eyebrow": "关于 PTY Audio", "title": "我们管理音乐所有权背后的商业基础设施。", "description": "PTY Audio 为需要权利、元数据与收入系统清晰度、保护和增长的独立创作者与目录所有者而构建。", "stats": ["交互式平台概念", "可接入发行工作流", "原型数据仅用于演示"]},
     "contact": {"meta": {"title": "联系", "description": "联系 PTY Audio 审核你的目录、发行或音乐权利问题。"}, "eyebrow": "联系", "title": "从一次聚焦的权利审核开始。", "description": "发送基本信息，PTY Audio 团队会将你的请求分配到正确流程。", "fields": {"name": "姓名", "email": "邮箱", "message": "消息"}, "placeholders": {"name": "你的姓名", "email": "name@example.com", "message": "告诉我们需要审核什么。"}, "cta": "发送请求"}
   },
   "catalogueHealthCheck": {

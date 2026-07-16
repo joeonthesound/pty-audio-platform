@@ -27,7 +27,7 @@
     "description": "Independent music rights management, publishing administration, royalty recovery and digital distribution for artists, producers and rights owners worldwide.",
     "primaryCta": "Catalogue Health Check",
     "secondaryCta": "Submit Your Music",
-    "trustLabel": "Trusted by music creators worldwide",
+    "trustLabel": "Rights ecosystems the platform is designed to support",
     "scroll": "Scroll",
     "metrics": {
       "catalogueValue": "Catalogue Value Overview",
@@ -40,7 +40,7 @@
     },
     "partners": ["ASCAP", "BMI", "SESAC", "THE MLC", "SoundExchange", "CMRRA"],
     "socialProof": {
-      "title": "Trusted by music creators worldwide"
+      "title": "Rights ecosystems the platform is designed to support"
     },
     "whatWeDo": {
       "eyebrow": "What we do",
@@ -54,7 +54,7 @@
         {"title": "YouTube & Digital Assets", "description": "Content ID management, asset optimization and digital catalogue revenue protection.", "href": "contact"}
       ],
       "learnMore": "Learn more",
-      "stats": ["10K+ Catalogues Managed", "150+ Countries Covered", "$45M+ Royalties Recovered", "15+ Years of Experience"]
+      "stats": ["Interactive platform concept", "Designed for global rights ecosystems", "Your catalogue metrics could live here", "Prototype data shown for demonstration"]
     },
     "tools": {
       "healthTitle": "Catalogue Health Check",
@@ -146,7 +146,7 @@
       "eyebrow": "About PTY Audio",
       "title": "We manage the business infrastructure behind music ownership.",
       "description": "PTY Audio is built for independent creators and catalogue owners who need clarity, protection and growth across rights, metadata and revenue systems.",
-      "stats": ["10K+ catalogues managed", "150+ countries covered", "$45M+ royalties recovered"]
+      "stats": ["Interactive platform concept", "Built to integrate with distribution workflows", "Prototype data shown for demonstration"]
     },
     "contact": {
       "meta": {"title": "Contact", "description": "Contact PTY Audio to review your catalogue, release or music rights issue."},
